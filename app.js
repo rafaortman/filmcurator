@@ -111,7 +111,9 @@ function card(m){
   const plats = m.platforms.length
     ? m.platforms.map(p => `<span class="plat">${p}</span>`).join('')
     : `<span class="plat none">sem streaming BR</span>`;
-  const pt = (m.titlePt && m.titlePt !== m.titleOrig) ? `<div class="cpt">${m.titlePt}</div>` : '';
+  // Hierarquia: título em pt-BR primeiro e com mais peso; original abaixo, mais leve.
+  const primary = m.titlePt || m.titleOrig;
+  const orig = (m.titleOrig && m.titleOrig !== primary) ? `<div class="cpt">${m.titleOrig}</div>` : '';
   const genres = m.genres.length
     ? `<div class="genres">${m.genres.map(g => `<span class="gtag">${g}</span>`).join('')}</div>`
     : '';
@@ -125,8 +127,8 @@ function card(m){
     <div class="rankbar"></div>
     ${poster}
     <div class="cbody">
-      <div class="ct">${m.titleOrig}</div>
-      ${pt}
+      <div class="ct">${primary}</div>
+      ${orig}
       <div class="badges"><span class="b pts">★ ${m.points} pts</span>${badge(m)}</div>
       ${genres}
       <div class="meta">
