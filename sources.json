@@ -1,0 +1,29 @@
+{
+  "GUA": {
+    "label": "Guardian",
+    "full": "The 100 Best Films of the 21st Century",
+    "year": 2019,
+    "url": "https://www.theguardian.com/film/2019/sep/13/100-best-films-movies-of-the-21st-century",
+    "scope": "Escolha dos críticos do Guardian",
+    "era": "XXI",
+    "color": "#e0533d"
+  },
+  "NYT": {
+    "label": "Times",
+    "full": "The 100 Best Movies of the 21st Century",
+    "year": 2025,
+    "url": "https://www.nytimes.com/interactive/2025/movies/best-movies-21st-century.html",
+    "scope": "Poll com 500+ cineastas, atores e profissionais",
+    "era": "XXI",
+    "color": "#4a90d9"
+  },
+  "BBC": {
+    "label": "BBC",
+    "full": "The 21st Century's 100 Greatest Films",
+    "year": 2016,
+    "url": "https://www.bbc.com/culture/article/20160819-the-21st-centurys-100-greatest-films",
+    "scope": "Poll com 177 críticos de cinema (corte em jun/2016)",
+    "era": "XXI",
+    "color": "#9b6dc4"
+  }
+}
