@@ -8,3 +8,7 @@ Thumbs.db
 # Python
 __pycache__/
 *.pyc
+
+# Enriquecimento — cache TMDB e CSVs de revisão (derivados)
+.cache/
+lists/*.resolved.csv

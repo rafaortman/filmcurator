@@ -25,5 +25,14 @@
     "scope": "Poll com 177 críticos de cinema (corte em jun/2016)",
     "era": "XXI",
     "color": "#9b6dc4"
+  },
+  "ROL": {
+    "label": "Rolling Stone",
+    "full": "The 100 Best Movies of the 20th Century",
+    "year": 1999,
+    "url": "https://www.rollingstone.com/feature/100-best-movies-20th-century-peter-travers-40636",
+    "scope": "Escolha de Peter Travers, crítico da Rolling Stone",
+    "era": "XX",
+    "color": "#3fae8f"
   }
 }

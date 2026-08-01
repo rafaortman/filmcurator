@@ -44,6 +44,10 @@ function updateYearLabel(){
 }
 updateYearLabel();
 
+// ---- Chips de lista (gerados das fontes; escala sozinho quando entra lista nova) ----
+$('listChips').innerHTML = Object.entries(SRC)
+  .map(([k, s]) => `<span class="chip" data-list="${k}">${s.label}</span>`).join('');
+
 // ---- Populate selects ----
 function uniqueSorted(arr){ return [...new Set(arr)].sort((a,b)=>a.localeCompare(b,'pt-BR')); }
 
