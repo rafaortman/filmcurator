@@ -34,5 +34,14 @@
     "scope": "Escolha de Peter Travers, crítico da Rolling Stone",
     "era": "XX",
     "color": "#3fae8f"
+  },
+  "VIL": {
+    "label": "Village Voice",
+    "full": "100 Best Films of the 20th Century",
+    "year": 2000,
+    "url": "",
+    "scope": "Poll com ~50 críticos de cinema",
+    "era": "XX",
+    "color": "#d9a441"
   }
 }

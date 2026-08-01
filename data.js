@@ -35,6 +35,15 @@ window.DB = {
 "scope": "Escolha de Peter Travers, crítico da Rolling Stone",
 "era": "XX",
 "color": "#3fae8f"
+},
+"VIL": {
+"label": "Village Voice",
+"full": "100 Best Films of the 20th Century",
+"year": 2000,
+"url": "",
+"scope": "Poll com ~50 críticos de cinema",
+"era": "XX",
+"color": "#d9a441"
 }
 },
 "movies": [
@@ -5462,11 +5471,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"ROL": 1
+"ROL": 1,
+"VIL": 12
 },
-"nLists": 1,
-"avgRank": 1.0,
-"points": 100
+"nLists": 2,
+"avgRank": 6.5,
+"points": 189
 },
 {
 "id": "240",
@@ -5490,11 +5500,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"ROL": 1
+"ROL": 1,
+"VIL": 31
 },
-"nLists": 1,
-"avgRank": 1.0,
-"points": 100
+"nLists": 2,
+"avgRank": 16.0,
+"points": 170
 },
 {
 "id": "426",
@@ -5518,11 +5529,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"ROL": 2
+"ROL": 2,
+"VIL": 3
 },
-"nLists": 1,
-"avgRank": 2.0,
-"points": 99
+"nLists": 2,
+"avgRank": 2.5,
+"points": 197
 },
 {
 "id": "3114",
@@ -5546,11 +5558,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"ROL": 3
+"ROL": 3,
+"VIL": 4
 },
-"nLists": 1,
-"avgRank": 3.0,
-"points": 98
+"nLists": 2,
+"avgRank": 3.5,
+"points": 195
 },
 {
 "id": "62",
@@ -5574,11 +5587,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"ROL": 4
+"ROL": 4,
+"VIL": 11
 },
-"nLists": 1,
-"avgRank": 4.0,
-"points": 97
+"nLists": 2,
+"avgRank": 7.5,
+"points": 187
 },
 {
 "id": "15",
@@ -5603,11 +5617,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"ROL": 5
+"ROL": 5,
+"VIL": 1
 },
-"nLists": 1,
-"avgRank": 5.0,
-"points": 96
+"nLists": 2,
+"avgRank": 3.0,
+"points": 196
 },
 {
 "id": "1578",
@@ -5658,11 +5673,12 @@ window.DB = {
 "platforms": [],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"ROL": 7
+"ROL": 7,
+"VIL": 21
 },
-"nLists": 1,
-"avgRank": 7.0,
-"points": 94
+"nLists": 2,
+"avgRank": 14.0,
+"points": 174
 },
 {
 "id": "3090",
@@ -5769,11 +5785,12 @@ window.DB = {
 "platforms": [],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"ROL": 11
+"ROL": 11,
+"VIL": 39
 },
-"nLists": 1,
-"avgRank": 11.0,
-"points": 90
+"nLists": 2,
+"avgRank": 25.0,
+"points": 152
 },
 {
 "id": "982",
@@ -5853,11 +5870,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"ROL": 14
+"ROL": 14,
+"VIL": 77
 },
-"nLists": 1,
-"avgRank": 14.0,
-"points": 87
+"nLists": 2,
+"avgRank": 45.5,
+"points": 111
 },
 {
 "id": "925",
@@ -5909,11 +5927,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"ROL": 16
+"ROL": 16,
+"VIL": 35
 },
-"nLists": 1,
-"avgRank": 16.0,
-"points": 85
+"nLists": 2,
+"avgRank": 25.5,
+"points": 151
 },
 {
 "id": "992",
@@ -5937,11 +5956,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"ROL": 17
+"ROL": 17,
+"VIL": 42
 },
-"nLists": 1,
-"avgRank": 17.0,
-"points": 84
+"nLists": 2,
+"avgRank": 29.5,
+"points": 143
 },
 {
 "id": "239",
@@ -6023,11 +6043,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"ROL": 20
+"ROL": 20,
+"VIL": 15
 },
-"nLists": 1,
-"avgRank": 20.0,
-"points": 81
+"nLists": 2,
+"avgRank": 17.5,
+"points": 167
 },
 {
 "id": "976",
@@ -6244,11 +6265,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"ROL": 28
+"ROL": 28,
+"VIL": 16
 },
-"nLists": 1,
-"avgRank": 28.0,
-"points": 73
+"nLists": 2,
+"avgRank": 22.0,
+"points": 158
 },
 {
 "id": "872",
@@ -6273,11 +6295,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"ROL": 29
+"ROL": 29,
+"VIL": 73
 },
-"nLists": 1,
-"avgRank": 29.0,
-"points": 72
+"nLists": 2,
+"avgRank": 51.0,
+"points": 100
 },
 {
 "id": "654",
@@ -6607,11 +6630,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"ROL": 41
+"ROL": 41,
+"VIL": 30
 },
-"nLists": 1,
-"avgRank": 41.0,
-"points": 60
+"nLists": 2,
+"avgRank": 35.5,
+"points": 131
 },
 {
 "id": "891",
@@ -6660,11 +6684,12 @@ window.DB = {
 "platforms": [],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"ROL": 43
+"ROL": 43,
+"VIL": 95
 },
-"nLists": 1,
-"avgRank": 43.0,
-"points": 58
+"nLists": 2,
+"avgRank": 69.0,
+"points": 64
 },
 {
 "id": "221",
@@ -6880,11 +6905,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"ROL": 51
+"ROL": 51,
+"VIL": 22
 },
-"nLists": 1,
-"avgRank": 51.0,
-"points": 50
+"nLists": 2,
+"avgRank": 36.5,
+"points": 129
 },
 {
 "id": "44494",
@@ -6935,11 +6961,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"ROL": 53
+"ROL": 53,
+"VIL": 2
 },
-"nLists": 1,
-"avgRank": 53.0,
-"points": 48
+"nLists": 2,
+"avgRank": 27.5,
+"points": 147
 },
 {
 "id": "2457",
@@ -6989,11 +7016,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"ROL": 55
+"ROL": 55,
+"VIL": 37
 },
-"nLists": 1,
-"avgRank": 55.0,
-"points": 46
+"nLists": 2,
+"avgRank": 46.0,
+"points": 110
 },
 {
 "id": "27030",
@@ -7017,11 +7045,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"ROL": 56
+"ROL": 56,
+"VIL": 24
 },
-"nLists": 1,
-"avgRank": 56.0,
-"points": 45
+"nLists": 2,
+"avgRank": 40.0,
+"points": 122
 },
 {
 "id": "18148",
@@ -7044,11 +7073,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"ROL": 57
+"ROL": 57,
+"VIL": 36
 },
-"nLists": 1,
-"avgRank": 57.0,
-"points": 44
+"nLists": 2,
+"avgRank": 46.5,
+"points": 109
 },
 {
 "id": "346",
@@ -7071,11 +7101,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"ROL": 58
+"ROL": 58,
+"VIL": 23
 },
-"nLists": 1,
-"avgRank": 58.0,
-"points": 43
+"nLists": 2,
+"avgRank": 40.5,
+"points": 121
 },
 {
 "id": "5801",
@@ -7096,11 +7127,12 @@ window.DB = {
 "platforms": [],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"ROL": 59
+"ROL": 59,
+"VIL": 13
 },
-"nLists": 1,
-"avgRank": 59.0,
-"points": 42
+"nLists": 2,
+"avgRank": 36.0,
+"points": 130
 },
 {
 "id": "269",
@@ -7152,11 +7184,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"ROL": 61
+"ROL": 61,
+"VIL": 47
 },
-"nLists": 1,
-"avgRank": 61.0,
-"points": 40
+"nLists": 2,
+"avgRank": 54.0,
+"points": 94
 },
 {
 "id": "439",
@@ -7256,11 +7289,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"ROL": 65
+"ROL": 65,
+"VIL": 58
 },
-"nLists": 1,
-"avgRank": 65.0,
-"points": 36
+"nLists": 2,
+"avgRank": 61.5,
+"points": 79
 },
 {
 "id": "2000",
@@ -7282,11 +7316,12 @@ window.DB = {
 "platforms": [],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"ROL": 66
+"ROL": 66,
+"VIL": 43
 },
-"nLists": 1,
-"avgRank": 66.0,
-"points": 35
+"nLists": 2,
+"avgRank": 54.5,
+"points": 93
 },
 {
 "id": "37550",
@@ -7422,11 +7457,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"ROL": 71
+"ROL": 71,
+"VIL": 38
 },
-"nLists": 1,
-"avgRank": 71.0,
-"points": 30
+"nLists": 2,
+"avgRank": 54.5,
+"points": 93
 },
 {
 "id": "10784",
@@ -8171,11 +8207,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"ROL": 99
+"ROL": 99,
+"VIL": 18
 },
-"nLists": 1,
-"avgRank": 99.0,
-"points": 2
+"nLists": 2,
+"avgRank": 58.5,
+"points": 85
 },
 {
 "id": "136",
@@ -8199,6 +8236,1896 @@ window.DB = {
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
 "ROL": 100
+},
+"nLists": 1,
+"avgRank": 100.0,
+"points": 1
+},
+{
+"id": "26317",
+"imdb_id": "tt0019760",
+"titleOrig": "Человек с киноаппаратом",
+"titlePt": "Um Homem com uma Câmera",
+"year": 1929,
+"country": "Rússia",
+"director": "Dziga Viértov",
+"duration": 68,
+"genres": [
+"Documentário"
+],
+"poster": "/z0VYMtZFOMpmnP4JPoJvAXmWRAD.jpg",
+"overview": "Um cinegrafista passeia com uma câmera pendurada no ombro, documentando a vida urbana com uma inventividade deslumbrante.",
+"era": "XX",
+"platforms": [
+"Belas Artes à La Carte",
+"Telecine"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 5
+},
+"nLists": 1,
+"avgRank": 5.0,
+"points": 96
+},
+{
+"id": "631",
+"imdb_id": "tt0018455",
+"titleOrig": "Sunrise: A Song of Two Humans",
+"titlePt": "Aurora",
+"year": 1927,
+"country": "EUA",
+"director": "F. W. Murnau",
+"duration": 94,
+"genres": [
+"Drama",
+"Romance"
+],
+"poster": "/y6buV7pYT0TIb3vwvc5oDQ6b8Gc.jpg",
+"overview": "Seduzido por uma moça da cidade, um fazendeiro tenta afogar sua mulher, mas desiste no último momento. Esta foge para a cidade, mas ele a segue para provar o seu amor.",
+"era": "XX",
+"platforms": [
+"Belas Artes à La Carte"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 6
+},
+"nLists": 1,
+"avgRank": 6.0,
+"points": 95
+},
+{
+"id": "43904",
+"imdb_id": "tt0024844",
+"titleOrig": "L'Atalante",
+"titlePt": "O Atalante",
+"year": 1934,
+"country": "França",
+"director": "Jean Vigo",
+"duration": 88,
+"genres": [
+"Comédia",
+"Drama",
+"Romance"
+],
+"poster": "/nwEtqhOYCofEHUX36rCkH6OcLzj.jpg",
+"overview": "Quando se casa com Jean, Juliette vai morar no barco do marido, onde o casal está acompanhado apenas de mais dois tripulantes. Pouco tempo depois, entediada com a vida a bordo, a mulher desembarca em Paris para ver a vida noturna. Irritado com isso, Jean zarpa, abandonando Juliette, mas, angustiado pela culpa e pela saudade, cai em depressão, e um dos tripulantes volta à cidade para tentar achar Juliette.",
+"era": "XX",
+"platforms": [
+"Belas Artes à La Carte"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 7
+},
+"nLists": 1,
+"avgRank": 7.0,
+"points": 94
+},
+{
+"id": "780",
+"imdb_id": "tt0019254",
+"titleOrig": "La Passion de Jeanne d'Arc",
+"titlePt": "O Martírio de Joana D'Arc",
+"year": 1928,
+"country": "França",
+"director": "Carl Theodor Dreyer",
+"duration": 110,
+"genres": [
+"Drama",
+"História"
+],
+"poster": "/apW5bhsxn9fai3ZMpC4l03lhhdo.jpg",
+"overview": "França, século XV, Joana de Domrémy, filha do povo, resiste bravamente a ocupação de seu país. É presa, humilhada, torturada e interrogada de maneira impiedosa por um tribunal eclesiástico, que a levou, involuntariamente, a blasfemar.",
+"era": "XX",
+"platforms": [
+"Belas Artes à La Carte",
+"Filmicca",
+"Telecine"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 8
+},
+"nLists": 1,
+"avgRank": 8.0,
+"points": 93
+},
+{
+"id": "20108",
+"imdb_id": "tt0060138",
+"titleOrig": "Au hasard Balthazar",
+"titlePt": "A Grande Testemunha",
+"year": 1966,
+"country": "França / Suécia",
+"director": "Robert Bresson",
+"duration": 96,
+"genres": [
+"Drama"
+],
+"poster": "/g4H2oJ4AYswQMeXtgOpP2pStQRm.jpg",
+"overview": "Uma obra de enorme cariz simbólico, onde a concepção humana e espiritual das personagens, virtudes, receios e defeitos, é encompassada pelo olhar e presença de um burro, de seu nome Balthazar, que surge quase como uma figura de matriz religiosa. Não é um burro qualquer. No circo descobrem-lhe qualidades extraordinárias, como uma inteligência rara que lhe permite resolver difíceis operações de multiplicar. Intemporal, pela reflexão que provoca e pela universalidade que evoca.",
+"era": "XX",
+"platforms": [
+"Globoplay",
+"Looke",
+"MUBI"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 9
+},
+"nLists": 1,
+"avgRank": 9.0,
+"points": 92
+},
+{
+"id": "548",
+"imdb_id": "tt0042876",
+"titleOrig": "羅生門",
+"titlePt": "Rashomon",
+"year": 1950,
+"country": "Japão",
+"director": "Akira Kurosawa",
+"duration": 88,
+"genres": [
+"Crime",
+"Drama",
+"Mistério"
+],
+"poster": "/wNCx5AdhBgSn0ddva3SEUFLs81K.jpg",
+"overview": "No Japão do século XI, um lenhador, um sacerdote e um camponês procuram refúgio de uma tempestade nas ruínas de pedra do Portão de Rashomon. O sacerdote conta detalhes de um julgamento que testemunhou, envolvendo o estupro de Masako e o assassinato do marido dela, Takehiro, um samurai. Em flashback é mostrado o julgamento do bandido Tajomaru, onde acontecem quatro testemunhos, inclusive de Takehiro através de um médium. Cada um é uma \"verdade\", que entra em conflito com as outras.",
+"era": "XX",
+"platforms": [
+"Arte",
+"Belas Artes à La Carte"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 10
+},
+"nLists": 1,
+"avgRank": 10.0,
+"points": 91
+},
+{
+"id": "618",
+"imdb_id": "tt0004972",
+"titleOrig": "The Birth of a Nation",
+"titlePt": "O Nascimento de Uma Nação",
+"year": 1915,
+"country": "EUA",
+"director": "D.W. Griffith",
+"duration": 191,
+"genres": [
+"Drama",
+"História",
+"Guerra"
+],
+"poster": "/dLb5x0BAY7Rt3zru1M5svceNt41.jpg",
+"overview": "Diversos pontos da história norte-americana são repassados sob a história de dois irmãos, chamados Phil e Ted Stoneman, que acabam em lados opostos a uma família amiga, os Camerons, durante a Guerra Civil.",
+"era": "XX",
+"platforms": [],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 14
+},
+"nLists": 1,
+"avgRank": 14.0,
+"points": 87
+},
+{
+"id": "48035",
+"imdb_id": "tt0048452",
+"titleOrig": "Ordet",
+"titlePt": "A Palavra",
+"year": 1955,
+"country": "Dinamarca",
+"director": "Carl Theodor Dreyer",
+"duration": 125,
+"genres": [
+"Drama"
+],
+"poster": "/kaIw7YKzOqInAwPavNgGupI7d2G.jpg",
+"overview": "Por motivos religiosos, um pai não aceita o casamento de sua filha com um jovem de família de outro credo. Enquanto isso, sua esposa está grávida e seu irmão é taxado como louco por acreditar ser Jesus Cristo.",
+"era": "XX",
+"platforms": [
+"Filmicca"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 17
+},
+"nLists": 1,
+"avgRank": 17.0,
+"points": 84
+},
+{
+"id": "44012",
+"imdb_id": "tt0073198",
+"titleOrig": "Jeanne Dielman, 23, quai du Commerce, 1080 Bruxelles",
+"titlePt": "Jeanne Dielman",
+"year": 1976,
+"country": "Bélgica / França",
+"director": "Chantal Akerman",
+"duration": 202,
+"genres": [
+"Drama"
+],
+"poster": "/fQ3DFpnEiidA5o2RteKRVK8EMhY.jpg",
+"overview": "Considerado como a obra-prima de Akerman, traz a atriz Delphine Seyrig no papel de Jeanne Dielman, uma jovem viúva que vive com seu filho Sylvain seguindo uma ordem imutável: à tarde, enquanto seu filho está na escola, ela cuida do apartamento e recebe os clientes.",
+"era": "XX",
+"platforms": [
+"Filmicca"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 19
+},
+"nLists": 1,
+"avgRank": 19.0,
+"points": 82
+},
+{
+"id": "539",
+"imdb_id": "tt0054215",
+"titleOrig": "Psycho",
+"titlePt": "Psicose",
+"year": 1960,
+"country": "EUA",
+"director": "Alfred Hitchcock",
+"duration": 109,
+"genres": [
+"Terror",
+"Thriller",
+"Mistério"
+],
+"poster": "/oC2iYT2on8c2iZnehah1l6AWqGu.jpg",
+"overview": "Marion Crane é uma secretária que rouba 40 mil dólares da imobiliária onde trabalha para se casar e começar uma nova vida. Durante a fuga à carro, ela enfrenta uma forte tempestade, erra o caminho e chega em um velho hotel. O estabelecimento é administrado por um sujeito atencioso chamado Norman Bates, que nutre um forte respeito e temor por sua mãe. Marion decide passar a noite no local, sem saber o perigo que a cerca.",
+"era": "XX",
+"platforms": [
+"Oldflix"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 20
+},
+"nLists": 1,
+"avgRank": 20.0,
+"points": 81
+},
+{
+"id": "965",
+"imdb_id": "tt0035015",
+"titleOrig": "The Magnificent Ambersons",
+"titlePt": "Soberba",
+"year": 1942,
+"country": "EUA",
+"director": "Orson Welles",
+"duration": 88,
+"genres": [
+"Drama",
+"Romance"
+],
+"poster": "/5paaMdmPdsKTfpIZQvArNKNNMoh.jpg",
+"overview": "Rica família de uma cidadezinha do sul dos Estados Unidos vê sua supremacia social pouco a pouco comprometida pela industrialização. Seu jovem e mimado herdeiro se coloca entre a mãe viúva e o homem que ela sempre amou.",
+"era": "XX",
+"platforms": [
+"Belas Artes à La Carte",
+"HBO Max",
+"Looke"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 25
+},
+"nLists": 1,
+"avgRank": 25.0,
+"points": 76
+},
+{
+"id": "15244",
+"imdb_id": "tt0049902",
+"titleOrig": "Un condamné à mort s'est échappé",
+"titlePt": "Um Condenado à Morte Escapou",
+"year": 1956,
+"country": "França",
+"director": "Robert Bresson",
+"duration": 101,
+"genres": [
+"Drama",
+"Thriller"
+],
+"poster": "/yKIbJ8Vs1VwRrXeOotSeVnR3sj6.jpg",
+"overview": "Baseado na história do ativista da resistência francesa Andre Devigni, que acaba preso durante a ocupação alemã na França e é condenado à morte. O que alimenta sua esperança é a preparação de um plano para fugir do seu destino.",
+"era": "XX",
+"platforms": [
+"Belas Artes à La Carte",
+"Filmicca"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 26
+},
+"nLists": 1,
+"avgRank": 26.0,
+"points": 75
+},
+{
+"id": "899",
+"imdb_id": "tt0009968",
+"titleOrig": "Broken Blossoms or The Yellow Man and the Girl",
+"titlePt": "Lírio Partido",
+"year": 1919,
+"country": "EUA",
+"director": "D.W. Griffith",
+"duration": 90,
+"genres": [
+"Drama",
+"Romance"
+],
+"poster": "/jiRGweEXHwwmLlVJHhWzbdvW101.jpg",
+"overview": "Em Londres, um jovem chinês se envolve com uma pobre moça que sofre nas mãos de seu pai abusivo.",
+"era": "XX",
+"platforms": [],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 27
+},
+"nLists": 1,
+"avgRank": 27.0,
+"points": 74
+},
+{
+"id": "1405",
+"imdb_id": "tt0015881",
+"titleOrig": "Greed",
+"titlePt": "Ouro e Maldição",
+"year": 1924,
+"country": "EUA",
+"director": "Erich von Stroheim",
+"duration": 140,
+"genres": [
+"Drama",
+"Crime"
+],
+"poster": "/dK6ZKdLfuxXti7MK6B5PYpwO8wC.jpg",
+"overview": "Após um bom tempo trabalhando em uma mina, McTeague se muda para a Califórnia, onde passa a trabalhar ilegalmente como dentista, e conhece e se casa com Trina, prima de seu amigo Marcus, também interessado nela. Trina ganha um grande prêmio na loteria e, aos poucos, vai sendo dominada pela avareza, o que desperta o caráter violento de McTeague, e a inveja de Marcus.",
+"era": "XX",
+"platforms": [],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 28
+},
+"nLists": 1,
+"avgRank": 28.0,
+"points": 73
+},
+{
+"id": "14696",
+"imdb_id": "tt0046478",
+"titleOrig": "雨月物語",
+"titlePt": "Contos da Lua Vaga",
+"year": 1953,
+"country": "Japão",
+"director": "Kenji Mizoguchi",
+"duration": 96,
+"genres": [
+"Fantasia",
+"Drama",
+"Mistério"
+],
+"poster": "/73GT8PJJ6LUFOGijLHsAJrSgwyO.jpg",
+"overview": "No Japão do século 16, os camponeses Genjuro e Tobei vendem as suas panelas de barro para um grupo de soldados numa vila próxima, desafiando a advertência de um sábio local contra a tentativa de lucrar com a guerra. A busca de Genjuro por riquezas e a misteriosa Lady Wakasa, assim como o desejo de Tobei de se tornar um samurai, correm o risco de destruir tanto a si quanto as suas esposas, Miyagi e Ohama.",
+"era": "XX",
+"platforms": [
+"Belas Artes à La Carte",
+"Oldflix"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 29
+},
+"nLists": 1,
+"avgRank": 29.0,
+"points": 72
+},
+{
+"id": "961",
+"imdb_id": "tt0017925",
+"titleOrig": "The General",
+"titlePt": "A General",
+"year": 1926,
+"country": "EUA",
+"director": "Clyde Bruckman",
+"duration": 79,
+"genres": [
+"Comédia",
+"Guerra",
+"Romance"
+],
+"poster": "/dFCEHn5Y8vqu1r3TMCa0xHYnxTo.jpg",
+"overview": "Johnnie Gray é apaixonado por sua locomotiva chamada General, e também por Annabelle Lee. Durante a Guerra da Secessão, General e Annabelle são raptadas por espiões da União e Johnnie tentará salvá-las em uma aventura através da ferrovia.",
+"era": "XX",
+"platforms": [
+"Artiflix",
+"Looke",
+"Telecine"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 32
+},
+"nLists": 1,
+"avgRank": 32.0,
+"points": 69
+},
+{
+"id": "490",
+"imdb_id": "tt0050976",
+"titleOrig": "Det sjunde inseglet",
+"titlePt": "O Sétimo Selo",
+"year": 1957,
+"country": "Suécia",
+"director": "Ingmar Bergman",
+"duration": 96,
+"genres": [
+"Fantasia",
+"Drama"
+],
+"poster": "/j1xE9l5n3Qk0d0pRG0iz9oNNwoH.jpg",
+"overview": "Após dez anos, um cavaleiro retorna das Cruzadas e encontra o país devastado pela Peste Negra. Sua fé em Deus é sensivelmente abalada e, enquanto reflete sobre o significado da vida, a Morte surge à sua frente querendo levá-lo, pois chegou sua hora. Objetivando ganhar tempo, convida-a para um jogo de xadrez que decidirá se ele parte com ela ou não. Tudo depende da sua vitória no jogo e a Morte concorda com o desafio, já que não perde nunca.",
+"era": "XX",
+"platforms": [
+"Arte",
+"MUBI"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 33
+},
+"nLists": 1,
+"avgRank": 33.0,
+"points": 68
+},
+{
+"id": "103",
+"imdb_id": "tt0075314",
+"titleOrig": "Taxi Driver",
+"titlePt": "Taxi Driver: Motorista de Táxi",
+"year": 1976,
+"country": "EUA",
+"director": "Martin Scorsese",
+"duration": 114,
+"genres": [
+"Crime",
+"Drama"
+],
+"poster": "/hvJvOYRrF9xxvNzg2Jd9PYWu7c3.jpg",
+"overview": "Veterano de guerra mentalmente instável trabalha como taxista em Nova York. Decadência e desprezo alimentam seu desejo de ação violenta.",
+"era": "XX",
+"platforms": [
+"HBO Max",
+"Looke",
+"Oldflix"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 34
+},
+"nLists": 1,
+"avgRank": 34.0,
+"points": 67
+},
+{
+"id": "19",
+"imdb_id": "tt0017136",
+"titleOrig": "Metropolis",
+"titlePt": "Metrópolis",
+"year": 1927,
+"country": "Alemanha",
+"director": "Fritz Lang",
+"duration": 153,
+"genres": [
+"Drama",
+"Ficção científica"
+],
+"poster": "/xBx21HvGJCb15PKWkyb7uc435Wx.jpg",
+"overview": "O futuro ė distante e o mundo está sob o comando dos poderosos, que isolaram os mais pobres no subsolo como se fossem seus escravos, para que trabalhassem em prol dos mesmos. Comandados por Freder Fredersen, os operários são obrigados a trabalharem sem parar para que a cidade não pare.",
+"era": "XX",
+"platforms": [
+"Arte",
+"Artiflix",
+"Belas Artes à La Carte",
+"Looke",
+"MUBI",
+"Telecine"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 40
+},
+"nLists": 1,
+"avgRank": 40.0,
+"points": 61
+},
+{
+"id": "1626",
+"imdb_id": "tt0056663",
+"titleOrig": "Vivre sa vie: film en douze tableaux",
+"titlePt": "Viver a Vida",
+"year": 1962,
+"country": "França",
+"director": "Jean-Luc Godard",
+"duration": 84,
+"genres": [
+"Drama"
+],
+"poster": "/2dP8bhgWg4myqlXRLK54PvusfZL.jpg",
+"overview": "Doze contos episódicos na vida de uma mulher parisiense e sua lenta descida para a prostituição.  Os muitos rostos de uma mulher tentando encontrar-se em um mundo de homens. Este filme explora a descida de uma mulher parisiense na prostituição. O filme é composto por uma série de 12 \"tableaux\", cenas que são basicamente episódios desconectados, cada um apresentado com uma introdução de um curto texto.",
+"era": "XX",
+"platforms": [
+"Filmicca"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 41
+},
+"nLists": 1,
+"avgRank": 41.0,
+"points": 60
+},
+{
+"id": "3063",
+"imdb_id": "tt0023969",
+"titleOrig": "Duck Soup",
+"titlePt": "O Diabo a Quatro",
+"year": 1933,
+"country": "EUA",
+"director": "Leo McCarey",
+"duration": 68,
+"genres": [
+"Comédia",
+"Guerra"
+],
+"poster": "/jytMIYzIl4YzwVYi9PY0Do6kDbO.jpg",
+"overview": "Rufus T. Firefly é nomeado presidente/ditador da corrupta Freedonia e declara guerra à sua vizinha, Sylvania, disputando o amor da rica Sra. Teasdale.",
+"era": "XX",
+"platforms": [
+"Belas Artes à La Carte"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 44
+},
+"nLists": 1,
+"avgRank": 44.0,
+"points": 57
+},
+{
+"id": "599",
+"imdb_id": "tt0043014",
+"titleOrig": "Sunset Boulevard",
+"titlePt": "Crepúsculo dos Deuses",
+"year": 1950,
+"country": "EUA",
+"director": "Billy Wilder",
+"duration": 110,
+"genres": [
+"Drama"
+],
+"poster": "/6QF7eBOqANsxj7QdIMRCEyUHW3F.jpg",
+"overview": "Uma estrela veterana do cinema mudo se recusa a aceitar que seu reinado acabou. Então ela contrata um jovem roteirista para ajudá-la a reconquistar o sucesso. O escritor acredita que pode manipular a atriz, mas percebe que está redondamente enganado.",
+"era": "XX",
+"platforms": [
+"Belas Artes à La Carte"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 45
+},
+"nLists": 1,
+"avgRank": 45.0,
+"points": 56
+},
+{
+"id": "3175",
+"imdb_id": "tt0072684",
+"titleOrig": "Barry Lyndon",
+"titlePt": "Barry Lyndon",
+"year": 1975,
+"country": "Reino Unido / EUA",
+"director": "Stanley Kubrick",
+"duration": 185,
+"genres": [
+"Drama",
+"Guerra",
+"História"
+],
+"poster": "/dOJtBSyI30wWc08UmyEKLsu4Rfk.jpg",
+"overview": "Um trapaceiro irlandês conquista o coração de uma viúva rica e assume a posição aristocrárica do seu falecido marido na Inglaterra do século 18.",
+"era": "XX",
+"platforms": [],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 46
+},
+"nLists": 1,
+"avgRank": 46.0,
+"points": 55
+},
+{
+"id": "25768",
+"imdb_id": "tt0019421",
+"titleOrig": "Steamboat Bill, Jr.",
+"titlePt": "Marinheiro de Encomenda",
+"year": 1928,
+"country": "EUA",
+"director": "Charles Reisner",
+"duration": 70,
+"genres": [
+"Comédia",
+"Romance",
+"Ação",
+"Drama"
+],
+"poster": "/xCczIjba3B7WDRnpydODJ3B0eQK.jpg",
+"overview": "Dois barqueiros disputam passageiros em River Junction: o capitão William Canfield e o poderoso John James King. Um dia o filho de William chega à cidade e apaixona-se por Marion King, a filha do rival.",
+"era": "XX",
+"platforms": [],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 48
+},
+"nLists": 1,
+"avgRank": 48.0,
+"points": 53
+},
+{
+"id": "266",
+"imdb_id": "tt0057345",
+"titleOrig": "Le Mépris",
+"titlePt": "O Desprezo",
+"year": 1963,
+"country": "França / Itália",
+"director": "Jean-Luc Godard",
+"duration": 103,
+"genres": [
+"Drama",
+"Romance"
+],
+"poster": "/4ePDVG6pf0I36a4YROGNu9aZ6Y3.jpg",
+"overview": "Paul Javal é um roteirista que vai a Roma para trabalhar em uma adaptação da obra A Odisséia, que contará com a direção do cineasta alemão Fritz Lang. Enquanto decide os últimos detalhes para aceitar o trabalho, sua relação com a esposa, Camille, começa a desabar, em um jogo de paixão, ciúmes e desprezo.",
+"era": "XX",
+"platforms": [],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 49
+},
+"nLists": 1,
+"avgRank": 49.0,
+"points": 52
+},
+{
+"id": "962",
+"imdb_id": "tt0015864",
+"titleOrig": "The Gold Rush",
+"titlePt": "Em Busca do Ouro",
+"year": 1925,
+"country": "EUA",
+"director": "Charlie Chaplin",
+"duration": 95,
+"genres": [
+"Aventura",
+"Comédia",
+"Drama"
+],
+"poster": "/oPUeIGsGi32v9EtEzxcHfzmQDLj.jpg",
+"overview": "No Alasca, Carlitos tenta a sorte como garimpeiro em meio a corrida do ouro de 1898. Lá ele conhece o gorducho McKay, com quem cria bastante confusão após uma tempestade de neve, e se apaixona pela linda dançarina Georgia.",
+"era": "XX",
+"platforms": [
+"Belas Artes à La Carte",
+"Globoplay",
+"Looke",
+"Telecine"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 50
+},
+"nLists": 1,
+"avgRank": 50.0,
+"points": 51
+},
+{
+"id": "213",
+"imdb_id": "tt0053125",
+"titleOrig": "North by Northwest",
+"titlePt": "Intriga Internacional",
+"year": 1959,
+"country": "EUA",
+"director": "Alfred Hitchcock",
+"duration": 136,
+"genres": [
+"Thriller",
+"Aventura"
+],
+"poster": "/fYMQBR5SXqMoOYsOBxgZYEtXTr7.jpg",
+"overview": "Confundido com um agente secreto, de uma hora para outra o publicitário Roger Tornhill se vê envolvido numa complicada trama de espionagem, sendo acusado inclusive de assassinato. Enquanto tenta provar sua inocência, é perseguido tanto pela polícia como por agentes criminosos.",
+"era": "XX",
+"platforms": [
+"Oldflix"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 51
+},
+"nLists": 1,
+"avgRank": 51.0,
+"points": 50
+},
+{
+"id": "86811",
+"imdb_id": "tt0060511",
+"titleOrig": "Hold Me While I'm Naked",
+"titlePt": "Hold Me While I'm Naked",
+"year": 1966,
+"country": "EUA",
+"director": "George Kuchar",
+"duration": 17,
+"genres": [
+"Comédia",
+"Drama"
+],
+"poster": "/80DDYIRdPKNrmsTPAyJrzeGsGkP.jpg",
+"overview": "Conta a história de um encantador e fracassado cineast que luta contra crises de depressão e solidão na tentativa de fazer um filme.",
+"era": "XX",
+"platforms": [],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 52
+},
+"nLists": 1,
+"avgRank": 52.0,
+"points": 49
+},
+{
+"id": "69912",
+"imdb_id": "tt0060860",
+"titleOrig": "La Prise de pouvoir par Louis XIV",
+"titlePt": "O Absolutismo: A Ascensão de Luís XIV",
+"year": 1966,
+"country": "França",
+"director": "Roberto Rossellini",
+"duration": 95,
+"genres": [
+"Drama",
+"História"
+],
+"poster": "/c4fHxg38wGrupmQRKlHlOjSahgU.jpg",
+"overview": "",
+"era": "XX",
+"platforms": [],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 53
+},
+"nLists": 1,
+"avgRank": 53.0,
+"points": 48
+},
+{
+"id": "1480",
+"imdb_id": "tt0052311",
+"titleOrig": "Touch of Evil",
+"titlePt": "A Marca da Maldade",
+"year": 1958,
+"country": "EUA",
+"director": "Orson Welles",
+"duration": 111,
+"genres": [
+"Crime",
+"Thriller",
+"Drama"
+],
+"poster": "/1R5UICWr3ygzRWZKejySivuJ2Hv.jpg",
+"overview": "Ao investigar um assassinato, chefe de polícia mexicano em lua-de-mel em uma pequena cidade da fronteira dos Estados Unidos com o México, entra em choque com detetive americano corrupto.",
+"era": "XX",
+"platforms": [
+"Looke"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 55
+},
+"nLists": 1,
+"avgRank": 55.0,
+"points": 46
+},
+{
+"id": "29845",
+"imdb_id": "tt0072417",
+"titleOrig": "A Woman Under the Influence",
+"titlePt": "Uma Mulher Sob Influência",
+"year": 1974,
+"country": "EUA",
+"director": "John Cassavetes",
+"duration": 155,
+"genres": [
+"Drama",
+"Romance"
+],
+"poster": "/o7NTTvCAEYqMisb7qrIKvrAiZnr.jpg",
+"overview": "Peter Falk é Nick Longhetti, chefe de família que precisa lidar com a instabilidade mental de sua esposa Mabel (Gena Rowlands). Ele luta de todas as formas para manter uma aparente normalidade diante do comportamento bizarro da mulher. Mas quando as ações de Mabel começam a afetar os próprios filhos, Nick é obrigado a tomar medidas drásticas.",
+"era": "XX",
+"platforms": [
+"Looke"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 56
+},
+"nLists": 1,
+"avgRank": 56.0,
+"points": 45
+},
+{
+"id": "3086",
+"imdb_id": "tt0033804",
+"titleOrig": "The Lady Eve",
+"titlePt": "As Três Noites de Eva",
+"year": 1941,
+"country": "EUA",
+"director": "Preston Sturges",
+"duration": 94,
+"genres": [
+"Comédia",
+"Romance"
+],
+"poster": "/lJYD3CMgKtv12hazSHc7xt3i2uq.jpg",
+"overview": "Depois de um ano estudando ofídios amazônicos, o rico - porém rústico - Charles Pike conhece em um navio Jean Harrington, uma golpista. Eles se apaixonam, mas um engano os separa. Para reconquistá-lo, Jean se disfarça como uma senhora inglesa e volta para atormentá-lo.",
+"era": "XX",
+"platforms": [
+"Looke"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 57
+},
+"nLists": 1,
+"avgRank": 57.0,
+"points": 44
+},
+{
+"id": "32255",
+"imdb_id": "tt0035169",
+"titleOrig": "The Palm Beach Story",
+"titlePt": "Mulher de Verdade",
+"year": 1942,
+"country": "EUA",
+"director": "Preston Sturges",
+"duration": 88,
+"genres": [
+"Comédia",
+"Romance"
+],
+"poster": "/vl3MVnrUsCa0wRsFTVU0ohbtWy6.jpg",
+"overview": "Gerry e Tom Jeffers estão achando difícil a vida de casado. Tom é um arquiteto/inventor e tem pouco dinheiro para eles viverem. Eles estão prestes a serem despejados de seu apartamento quando Gerry se reúne com um rico homem de negócios que está sendo apresentado como um potencial inquilino. Ele dá a Gerry US $ 700 para recomeçar a vida, mas Tom se recusa a acreditar em sua história e eles brigam. Gerry decide que o casamento acabou e vai para Palm Beach para um divórcio rápido. Mas Tom tem planos para impedi-la.",
+"era": "XX",
+"platforms": [],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 59
+},
+"nLists": 1,
+"avgRank": 59.0,
+"points": 42
+},
+{
+"id": "11697",
+"imdb_id": "tt0056217",
+"titleOrig": "The Man Who Shot Liberty Valance",
+"titlePt": "O Homem Que Matou o Facínora",
+"year": 1962,
+"country": "EUA",
+"director": "John Ford",
+"duration": 124,
+"genres": [
+"Faroeste"
+],
+"poster": "/xEg6KFuU8Xd2VsLf2ujm337G33d.jpg",
+"overview": "Enquanto o senador americano de cabelos grisalhos Ransom Stoddard e sua adorável esposa, Hallie, retornam à cidade esquecida de Shinbone para enterrar Tom Doniphon, um velho amigo, surgem perguntas urgentes. Ao ser encurralado pelo curioso editor-chefe do jornal local, o congressista, então um advogado iniciante, conta a história de como conheceu Tom e como lutou contra o cruel agitador estadual Liberty Valance e seus capangas assassinos. Naquela época, a fronteira oeste era um lugar perigoso para se viver, onde a lei dava lugar à força bruta. Na poeirenta Shinbone, será que o povo se dá conta do quanto deve ao homem que atirou em Liberty Valance?",
+"era": "XX",
+"platforms": [],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 60
+},
+"nLists": 1,
+"avgRank": 60.0,
+"points": 41
+},
+{
+"id": "690",
+"imdb_id": "tt0053168",
+"titleOrig": "Pickpocket",
+"titlePt": "O Batedor de Carteiras",
+"year": 1959,
+"country": "França",
+"director": "Robert Bresson",
+"duration": 75,
+"genres": [
+"Crime",
+"Drama"
+],
+"poster": "/e1RwpBO8ZFViQQYoTuiGxyTjr3d.jpg",
+"overview": "Michel é um jovem que começa a bater carteiras por prazer e pela emoção do roubo, e isso vira uma compulsão. Ele é preso, percebe o choque que isso causa em sua mãe e em seus amigos e reflete sobre seus atos. Porém, depois de solto, ele se junta a um ladrão veterano e volta ao crime.",
+"era": "XX",
+"platforms": [
+"Telecine"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 61
+},
+"nLists": 1,
+"avgRank": 61.0,
+"points": 40
+},
+{
+"id": "27197",
+"imdb_id": "tt0057710",
+"titleOrig": "雪之丞変化",
+"titlePt": "A Vingança do Ator",
+"year": 1963,
+"country": "Japão",
+"director": "市川崑",
+"duration": 114,
+"genres": [
+"Drama"
+],
+"poster": "/xmXcyNWO1YMj7apboo01lrMPOfO.jpg",
+"overview": "Em uma excursão com seu grupo de teatro kabuki, Yukinojo, ator principal da trupe, acaba cruzando com os três homens que levaram seus pais ao suicídio, 20 anos antes. Yukinojo então trama sua vingança, primeiro seduzindo a filha de um deles e depois os levando à ruína.",
+"era": "XX",
+"platforms": [],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 62
+},
+"nLists": 1,
+"avgRank": 62.0,
+"points": 39
+},
+{
+"id": "30017",
+"imdb_id": "tt0100234",
+"titleOrig": "کلوزآپ ، نمای نزدیک",
+"titlePt": "Close-Up",
+"year": 1990,
+"country": "Irã",
+"director": "Abbas Kiarostami",
+"duration": 98,
+"genres": [
+"Crime",
+"Drama"
+],
+"poster": "/bqdgN0SE5qbRXFPoaOPRj0yNv9X.jpg",
+"overview": "Um homem engana uma família afirmando ser Mohsen Makhmalbaf, um famoso diretor iraniano, e que faria um novo filme em sua casa, estrelado por eles mesmos. Ao desconfiar da fraude, a família chama a polícia e o homem é preso por falsidade ideológica. Sensibilizado com o caso do rapaz, o diretor Abbas Kiarostami o procura e pergunta o que pode fazer por ele, que responde \"estou sofrendo muito, faça um filme sobre meu sofrimento\". Kiarostami então filma o julgamento do rapaz, e posteriormente reconta a história fazendo de atores os próprios envolvidos no caso.",
+"era": "XX",
+"platforms": [],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 64
+},
+"nLists": 1,
+"avgRank": 64.0,
+"points": 37
+},
+{
+"id": "24192",
+"imdb_id": "tt0058715",
+"titleOrig": "Il vangelo secondo Matteo",
+"titlePt": "O Evangelho Segundo São Mateus",
+"year": 1965,
+"country": "Itália / França",
+"director": "Pier Paolo Pasolini",
+"duration": 137,
+"genres": [
+"Drama"
+],
+"poster": "/xLbUJHMqeRzHB9JHUxzhF4ZjQxO.jpg",
+"overview": "Partindo da Imaculada Conceição, a vida de Cristo é reconstituída segundo o Evangelho de São Mateus. Quando Jesus viaja pela Palestina com os seus discípulos para espalhar a palavra de Deus, os romanos conspiram para que ele seja silenciado, resultando na sua prisão, crucificação, e ressurreição.",
+"era": "XX",
+"platforms": [],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 65
+},
+"nLists": 1,
+"avgRank": 65.0,
+"points": 36
+},
+{
+"id": "662",
+"imdb_id": "tt0056119",
+"titleOrig": "La Jetée",
+"titlePt": "A Pista",
+"year": 1962,
+"country": "França",
+"director": "Chris Marker",
+"duration": 29,
+"genres": [
+"Drama",
+"Romance",
+"Ficção científica"
+],
+"poster": "/8cV9FFgRSPmvuVMUwP0JhwpSPDL.jpg",
+"overview": "Um homem confronta seu passado durante um experimento que tenta encontrar uma solução para os problemas de um mundo pós-apocalíptico causado por uma guerra mundial.",
+"era": "XX",
+"platforms": [
+"DocAlliance Films",
+"MUBI"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 66
+},
+"nLists": 1,
+"avgRank": 66.0,
+"points": 35
+},
+{
+"id": "3082",
+"imdb_id": "tt0027977",
+"titleOrig": "Modern Times",
+"titlePt": "Tempos Modernos",
+"year": 1936,
+"country": "EUA",
+"director": "Charlie Chaplin",
+"duration": 87,
+"genres": [
+"Comédia",
+"Drama",
+"Romance"
+],
+"poster": "/zQJto2v1hYzm54lHlTZp8d7vRwS.jpg",
+"overview": "Sujeito ao ritmo de produção infernal da fábrica, o Vagabundo tem um súbito colapso nervoso. Do hospital, ele vai para a prisão e fica desempregado, sempre cercado pela industrialização moderna. Certo dia, ele se depara com uma menina órfã.",
+"era": "XX",
+"platforms": [
+"Arte",
+"Globoplay",
+"Looke",
+"Telecine"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 67
+},
+"nLists": 1,
+"avgRank": 67.0,
+"points": 34
+},
+{
+"id": "444465",
+"imdb_id": "tt0018173",
+"titleOrig": "Москва в Октябре",
+"titlePt": "Москва в Октябре",
+"year": 1927,
+"country": "Rússia",
+"director": "Борис Барнет",
+"duration": 38,
+"genres": [
+"Drama"
+],
+"poster": "/xWkSEt2vONtFrmaw5DZ5vMkYIqG.jpg",
+"overview": "",
+"era": "XX",
+"platforms": [],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 68
+},
+"nLists": 1,
+"avgRank": 68.0,
+"points": 33
+},
+{
+"id": "800",
+"imdb_id": "tt0042804",
+"titleOrig": "Los olvidados",
+"titlePt": "Os Esquecidos",
+"year": 1950,
+"country": "México",
+"director": "Luis Buñuel",
+"duration": 82,
+"genres": [
+"Drama",
+"Crime"
+],
+"poster": "/jkjw7Y7WgUnUt9OW2KwWWolTyrw.jpg",
+"overview": "Um grupo de delinquentes juvenis vive uma vida violenta nas infames favelas da Cidade do México; entre eles, o jovem Pedro, cuja moralidade é gradualmente corrompida e destruída pelos outros.",
+"era": "XX",
+"platforms": [
+"Belas Artes à La Carte"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 69
+},
+"nLists": 1,
+"avgRank": 69.0,
+"points": 32
+},
+{
+"id": "8429",
+"imdb_id": "tt0038823",
+"titleOrig": "Paisà",
+"titlePt": "Paisà",
+"year": 1946,
+"country": "Itália",
+"director": "Roberto Rossellini",
+"duration": 126,
+"genres": [
+"Drama",
+"Guerra"
+],
+"poster": "/3cRqNBOeWtwpv0Fzj68NsaeRsHQ.jpg",
+"overview": "A barreira linguística tem consequências trágicas em uma série de histórias não relacionadas durante a Campanha Italiana da Segunda Guerra Mundial.",
+"era": "XX",
+"platforms": [
+"Belas Artes à La Carte"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 70
+},
+"nLists": 1,
+"avgRank": 70.0,
+"points": 31
+},
+{
+"id": "26606",
+"imdb_id": "tt0066214",
+"titleOrig": "Performance.",
+"titlePt": "Performance.",
+"year": 1970,
+"country": "Reino Unido",
+"director": "Nicolas Roeg",
+"duration": 106,
+"genres": [
+"Crime",
+"Drama"
+],
+"poster": "/yKuqk84TtTpj0nYZS5m680JmprG.jpg",
+"overview": "A primeira de várias incursões de Jagger no cinema, o pôlemico Performance sofreu várias montagens diferentes até seu lançamento. Um gângster (James Fox) jurado de morte por seus pares se refugia na mansão de um rockstar decadente (Mick Jagger), junto com duas garotas andróginas (Anita Pallenberg e Michelle Breton), e lá tem seus sentidos testados por um coquetel de drogas e perversão. Ao mesmo tempo, há um choque entre os mundo do gângster e do roqueiro, com suas diferenças.",
+"era": "XX",
+"platforms": [],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 71
+},
+"nLists": 1,
+"avgRank": 71.0,
+"points": 30
+},
+{
+"id": "42044",
+"imdb_id": "tt0090015",
+"titleOrig": "Shoah",
+"titlePt": "Shoah",
+"year": 1985,
+"country": "França",
+"director": "Claude Lanzmann",
+"duration": 568,
+"genres": [
+"Documentário",
+"História"
+],
+"poster": "/8TrQ0NfguZu61Ojz0glWGWJ1Q98.jpg",
+"overview": "Claude Lanzmann dirigiu este documentário de 9 horas e meia do Holocausto sem usar um único quadro de imagens de arquivo. Ele entrevista sobreviventes, testemunhas e ex-nazistas (a quem ele tinha que filmar secretamente, uma vez que eles só concordaram em ser entrevistados pelo áudio). Seu estilo de entrevista, pedindo os detalhes mais minuciosos é eficaz em somar esses detalhes para dar um retrato horripilante dos eventos do genocídio nazista. Ele também mostra, ou melhor, deixa mostrar alguns de seus assuntos, que o anti-semitismo que causou a morte de 6 milhões de judeus no Holocausto ainda está vivo em muitas pessoas que ainda vivem na Alemanha, Polônia e outros lugares. (e 12 - Estimado 12 Anos)",
+"era": "XX",
+"platforms": [],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 72
+},
+"nLists": 1,
+"avgRank": 72.0,
+"points": 29
+},
+{
+"id": "8074",
+"imdb_id": "tt0060304",
+"titleOrig": "2 ou 3 choses que je sais d'elle",
+"titlePt": "Duas ou Três Coisas Que Eu Sei Dela",
+"year": 1967,
+"country": "França",
+"director": "Jean-Luc Godard",
+"duration": 87,
+"genres": [
+"Comédia",
+"Drama"
+],
+"poster": "/apt4aTlX9Qk00GVcB2Am91aJSWS.jpg",
+"overview": "O \"Dela\" no título do filme se refere à Paris dos anos 60, um retrato da sociedade de consumo, em meio à pobreza das massas e conflitos como a Guerra do Vietnã. Um dos exemplos dessa atmosfera é Vlady, uma dona-de-casa que se divide entre cuidar da família e a prostituição, o meio mais fácil que encontra para poder ganhar dinheiro e satisfazer suas necessidades mais frívolas.",
+"era": "XX",
+"platforms": [
+"Globoplay"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 74
+},
+"nLists": 1,
+"avgRank": 74.0,
+"points": 27
+},
+{
+"id": "833",
+"imdb_id": "tt0045274",
+"titleOrig": "Umberto D.",
+"titlePt": "Umberto D.",
+"year": 1952,
+"country": "Itália",
+"director": "Vittorio De Sica",
+"duration": 91,
+"genres": [
+"Drama"
+],
+"poster": "/mbkQ4A04Er9WJNudlVZH5HS8IMf.jpg",
+"overview": "Na Itália do início dos anos 1950, enquanto a economia do país renasce, os idosos sofrem com as miseráveis pensões dadas pelo governo. Em Roma, Umberto Domenico Ferrari, um funcionário público aposentado, é despejado por não conseguir pagar o aluguel de seu quarto. Na companhia de seu único amigo, o cachorrinho Flik, Umberto vaga pelas ruas, buscando apenas um objetivo: viver com dignidade.",
+"era": "XX",
+"platforms": [
+"Arte"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 75
+},
+"nLists": 1,
+"avgRank": 75.0,
+"points": 26
+},
+{
+"id": "29082",
+"imdb_id": "tt0006206",
+"titleOrig": "Les Vampires",
+"titlePt": "Os Vampiros",
+"year": 1915,
+"country": "França",
+"director": "Louis Feuillade",
+"duration": 422,
+"genres": [
+"Drama",
+"Thriller"
+],
+"poster": "/bpvk8FehQAYs6530JZ1sQ3gSKAQ.jpg",
+"overview": "Paris é presa de um terror invisível contra o qual a polícia nada pode fazer: uma organização sinistra que semeia o caos e a morte. O intrépido jornalista Philippe Guérande e seu parceiro embarcam numa longa cruzada para pôr fim aos crimes do Grande Vampiro e de Irma Vep, sua perigosa cúmplice.",
+"era": "XX",
+"platforms": [],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 76
+},
+"nLists": 1,
+"avgRank": 76.0,
+"points": 25
+},
+{
+"id": "43316",
+"imdb_id": "tt0047811",
+"titleOrig": "All That Heaven Allows",
+"titlePt": "Tudo Que o Céu Permite",
+"year": 1955,
+"country": "EUA",
+"director": "Douglas Sirk",
+"duration": 89,
+"genres": [
+"Drama",
+"Romance"
+],
+"poster": "/iaqLYxP7VaTa5D0INUUqxPC5TCj.jpg",
+"overview": "Cary Scott é uma respeitável viúva da alta classe média, que sente-se frustrada, mas reencontra o amor ao se apaixonar por Ron Kirby, seu jardineiro. Apesar de ser 15 anos mais velha e ter um casal de filhos já crescidos, ela decide assumir esta paixão. Entretanto Cary encontra preconceito em vários de seus amigos íntimos e até mesmo nos filhos, que não aceitam que a mãe tenha tal relação.",
+"era": "XX",
+"platforms": [
+"Belas Artes à La Carte"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 78
+},
+"nLists": 1,
+"avgRank": 78.0,
+"points": 23
+},
+{
+"id": "643",
+"imdb_id": "tt0015648",
+"titleOrig": "Броненосец Потёмкин",
+"titlePt": "O Encouraçado Potemkin",
+"year": 1925,
+"country": "Rússia",
+"director": "Serguei Eisenstein",
+"duration": 72,
+"genres": [
+"Drama",
+"História",
+"Guerra"
+],
+"poster": "/a1AvYpBbEixfNK6KgG5bpowsm7X.jpg",
+"overview": "Em 1905, na Rússia czarista, aconteceu um levante que pressagiou a Revolução de 1917. Tudo começou no navio de guerra Potemkin quando os marinheiros estavam cansados de serem maltratados, sendo que até carne estragada lhes era dada com o médico de bordo insistindo que ela era perfeitamente comestível. Alguns marinheiros se recusam em comer esta carne, então os oficiais do navio ordenam a execução deles. A tensão aumenta e, gradativamente, a situação sai cada vez mais do controle. Logo depois dos gatilhos serem apertados Vakulinchuk (Aleksandr Antonov), um marinheiro, grita para os soldados e pede para eles pensarem e decidirem se estão com os oficiais ou com os marinheiros. Os soldados hesitam e então abaixam suas armas. Louco de ódio, um oficial tenta agarrar um dos rifles e provoca uma revolta no navio, na qual o marinheiro é morto. Mas isto seria apenas o início de uma grande tragédia.",
+"era": "XX",
+"platforms": [
+"Belas Artes à La Carte",
+"Looke"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 79
+},
+"nLists": 1,
+"avgRank": 79.0,
+"points": 22
+},
+{
+"id": "303",
+"imdb_id": "tt0038787",
+"titleOrig": "Notorious",
+"titlePt": "Interlúdio",
+"year": 1946,
+"country": "EUA",
+"director": "Alfred Hitchcock",
+"duration": 101,
+"genres": [
+"Romance",
+"Mistério",
+"Drama"
+],
+"poster": "/aGlxyjWBNWN2PnMnQdPpFn8qEij.jpg",
+"overview": "Localizado no Rio de Janeiro, conta a história de Alicia e Devlin, dois polos completamente opostos que acabam se apaixonando devido ao tempo em que trabalharam juntos. Ela é filha de um espião alemão preso pelo governo dos EUA e, para evitar a morte do pai, é obrigada a ajudar o governo americano a prender inimigos mais importantes. Ele é um agente do governo que vai comandar a operação, monitorando para que tudo saia nas mais perfeitas condições planejadas.",
+"era": "XX",
+"platforms": [
+"Belas Artes à La Carte",
+"Looke"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 80
+},
+"nLists": 1,
+"avgRank": 80.0,
+"points": 21
+},
+{
+"id": "2786",
+"imdb_id": "tt0059592",
+"titleOrig": "Pierrot le fou",
+"titlePt": "O Demônio das Onze Horas",
+"year": 1965,
+"country": "França / Itália",
+"director": "Jean-Luc Godard",
+"duration": 111,
+"genres": [
+"Drama",
+"Romance",
+"Crime"
+],
+"poster": "/z8it6uz7PWQJEYQ1BVoSQIcXlVR.jpg",
+"overview": "Casado com uma italiana e entediado com sua vida na alta sociedade, o professor espanhol Ferdinand foge em direção ao sul com Marianne, após um cadáver ser encontrado na casa dela. Eles caem na estrada e deixa um rastro de roubos por onde passam.",
+"era": "XX",
+"platforms": [
+"Telecine"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 81
+},
+"nLists": 1,
+"avgRank": 81.0,
+"points": 20
+},
+{
+"id": "42254",
+"imdb_id": "tt0072976",
+"titleOrig": "Faustrecht der Freiheit",
+"titlePt": "O Direito do Mais Forte é a Liberdade",
+"year": 1975,
+"country": "Alemanha",
+"director": "Rainer Werner Fassbinder",
+"duration": 125,
+"genres": [
+"Drama"
+],
+"poster": "/hbmqm0PiZwq2V2ZSbW3QRCf6rU5.jpg",
+"overview": "Franz Biberkopf é um gay pobre, que viaja com um circo. Consegue ganhar na loteria um milhão de marcos e atrai a atenção de um rapaz que está apenas interessado em seu dinheiro. Será que eles continuarão juntos após acabar a grana?",
+"era": "XX",
+"platforms": [
+"Belas Artes à La Carte"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 82
+},
+"nLists": 1,
+"avgRank": 82.0,
+"points": 19
+},
+{
+"id": "30497",
+"imdb_id": "tt0072271",
+"titleOrig": "The Texas Chain Saw Massacre",
+"titlePt": "O Massacre da Serra Elétrica",
+"year": 1974,
+"country": "EUA",
+"director": "Tobe Hooper",
+"duration": 83,
+"genres": [
+"Terror"
+],
+"poster": "/p4ASEhC23kteI4pabD3cvFccCgO.jpg",
+"overview": "Em 1973, a polícia texana deu como encerrado o caso de um terrível massacre de 33 pessoas provocado por um homem que usava uma máscara feita de pele humana. Nos anos que se seguiram os policiais foram acusados de fazer uma péssima investigação e de terem matado o cara errado. Só que dessa vez, o único sobrevivente do massacre vai contar em detalhes o que realmente aconteceu na deserta estrada do Texas, quando ele e mais 4 amigos estavam indo visitar o seu avô.",
+"era": "XX",
+"platforms": [
+"Filmelier Plus",
+"MUBI"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 83
+},
+"nLists": 1,
+"avgRank": 83.0,
+"points": 18
+},
+{
+"id": "775",
+"imdb_id": "tt0000417",
+"titleOrig": "Le Voyage dans la Lune",
+"titlePt": "Viagem à Lua",
+"year": 1902,
+"country": "França",
+"director": "Georges Méliès",
+"duration": 14,
+"genres": [
+"Aventura",
+"Ficção científica",
+"Comédia"
+],
+"poster": "/lw2x13m4zdqnK7SizPI5orokhas.jpg",
+"overview": "Estudiosos de astronomia partem para uma expedição à Lua e vivem aventuras para escapar de seus habitantes e voltar para casa.",
+"era": "XX",
+"platforms": [
+"MUBI"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 84
+},
+"nLists": 1,
+"avgRank": 84.0,
+"points": 17
+},
+{
+"id": "88421",
+"imdb_id": "tt0127354",
+"titleOrig": "Wavelength",
+"titlePt": "Wavelength",
+"year": 1967,
+"country": "Canadá / EUA",
+"director": "Michael Snow",
+"duration": 46,
+"genres": [
+"Drama"
+],
+"poster": "/EJrUlzZ7kTrCP3czxqtb5dfS5i.jpg",
+"overview": "Filme experimental em um único plano, feito em um grande cômodo urbano.",
+"era": "XX",
+"platforms": [],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 85
+},
+"nLists": 1,
+"avgRank": 85.0,
+"points": 16
+},
+{
+"id": "5055",
+"imdb_id": "tt0052080",
+"titleOrig": "Popiół i diament",
+"titlePt": "Cinzas e Diamantes",
+"year": 1958,
+"country": "Polônia",
+"director": "Andrzej Wajda",
+"duration": 103,
+"genres": [
+"Drama",
+"Guerra",
+"Romance"
+],
+"poster": "/SxpCaTxBrt73m04exd1sp0Phxq.jpg",
+"overview": "Última parte da trilogia não planejada de Andrzej Wajda, que segue Geração e Kanal, sobre acontecimentos passados durante a Segunda Guerra Mundial na Polônia, Cinzas e Diamantes é considerado uma das maiores obras-primas do cinema mundial.  Em 1945, no último dia da guerra, um jovem mercenário é contratado por uma organização de direita para matar um líder comunista em uma aldeia. Interpretado por Zbigniew Cybulski, considerado o James Dean do cinema polonês, o guerrilheiro cai de amores por uma garçonete e começa e pensar em desistir de sua vida de combatente.",
+"era": "XX",
+"platforms": [
+"Oldflix"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 86
+},
+"nLists": 1,
+"avgRank": 86.0,
+"points": 15
+},
+{
+"id": "5722",
+"imdb_id": "tt0065466",
+"titleOrig": "Beyond the Valley of the Dolls",
+"titlePt": "De Volta ao Vale das Bonecas",
+"year": 1970,
+"country": "EUA",
+"director": "Russ Meyer",
+"duration": 109,
+"genres": [
+"Comédia",
+"Drama",
+"Música"
+],
+"poster": "/eslylQSssnNIV4f06fHtfxPTH3I.jpg",
+"overview": "",
+"era": "XX",
+"platforms": [],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 87
+},
+"nLists": 1,
+"avgRank": 87.0,
+"points": 14
+},
+{
+"id": "56167",
+"imdb_id": "tt0044487",
+"titleOrig": "Le Carrosse d'or",
+"titlePt": "A Carruagem de Ouro",
+"year": 1952,
+"country": "França / Itália",
+"director": "Jean Renoir",
+"duration": 103,
+"genres": [
+"Comédia",
+"Drama",
+"Romance"
+],
+"poster": "/6x1JnbgsUarHnLRmqnprhzQwWlR.jpg",
+"overview": "Estrela de uma companhia de teatro, Camilla hesita entre três homens. Um jovem oficial espanhol; o vice-rei, que lhe dá sua magnífica carruagem de ouro; e o toureiro Ramon, que lhe oferece parte de sua glória. Com a ameaça de guerra, ela precisa tomar decisões dolorosas sobre seu futuro.",
+"era": "XX",
+"platforms": [],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 88
+},
+"nLists": 1,
+"avgRank": 88.0,
+"points": 13
+},
+{
+"id": "5336",
+"imdb_id": "tt0073650",
+"titleOrig": "Salò o le 120 giornate di Sodoma",
+"titlePt": "Salò, ou os 120 Dias de Sodoma",
+"year": 1976,
+"country": "Itália / França",
+"director": "Pier Paolo Pasolini",
+"duration": 117,
+"genres": [
+"Terror",
+"Drama"
+],
+"poster": "/tNCJu3OqJkyUpGNp7GfgCGcSB69.jpg",
+"overview": "Pasolini parte da obra de Sade e revisita o episódio histórico da República de Salò para apresentar sua visão sobre o poder, a sexualidade, o conformismo e a juventude italiana dos anos 1970, em um filme de quatro partes: Ante-Inferno, Círculo das Manias, Círculo da Merda e uma última, Círculo de Sangue.",
+"era": "XX",
+"platforms": [],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 89
+},
+"nLists": 1,
+"avgRank": 89.0,
+"points": 12
+},
+{
+"id": "27019",
+"imdb_id": "tt0071381",
+"titleOrig": "Céline et Julie vont en bateau",
+"titlePt": "Céline e Julie Vão de Barco",
+"year": 1974,
+"country": "França",
+"director": "Jacques Rivette",
+"duration": 194,
+"genres": [
+"Comédia",
+"Drama",
+"Fantasia"
+],
+"poster": "/uyKb4rQkfO8zPjYDdLPavScrAip.jpg",
+"overview": "Quando Céline vai passear em um parque parisiense, deixando cair primeiro um cachecol e depois outros objetos, Julie começa a recolher cada item enquanto a segue. Assim começa uma relação fantasiosa entre as duas, que logo as faz trocar de identidade.",
+"era": "XX",
+"platforms": [],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 90
+},
+"nLists": 1,
+"avgRank": 90.0,
+"points": 11
+},
+{
+"id": "4710",
+"imdb_id": "tt0060675",
+"titleOrig": "Masculin féminin",
+"titlePt": "Masculino - Feminino",
+"year": 1966,
+"country": "França / Suécia",
+"director": "Jean-Luc Godard",
+"duration": 105,
+"genres": [
+"Drama",
+"Romance"
+],
+"poster": "/6UvGV2nSh7fGYf4Ho1BGMKZlqRX.jpg",
+"overview": "Paul é jovem, acaba de sair do serviço militar francês e está desiludido com a vida. Enquanto sua namorada constrói uma carreira como cantora pop, Paul fica mais isolado de seus amigos e de sua vida social. O filme mostra também, de um modo singelo, a revolta dos jovens com a guerra do vietnã.",
+"era": "XX",
+"platforms": [
+"MUBI"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 91
+},
+"nLists": 1,
+"avgRank": 91.0,
+"points": 10
+},
+{
+"id": "653",
+"imdb_id": "tt0013442",
+"titleOrig": "Nosferatu, eine Symphonie des Grauens",
+"titlePt": "Nosferatu: Uma Sinfonia de Horror",
+"year": 1922,
+"country": "Alemanha",
+"director": "F. W. Murnau",
+"duration": 94,
+"genres": [
+"Terror",
+"Fantasia"
+],
+"poster": "/zEzQTngP7F4qVmLDCWg5Hby6cgX.jpg",
+"overview": "Hutter, agente imobiliário, viaja até os Montes Cárpatos para vender um castelo no Mar Báltico cujo proprietário é o excêntrico conde Graf Orlock, que na verdade é um milenar vampiro que, buscando poder, se muda para Bremen, Alemanha, espalhando o terror na região. Curiosamente quem pode reverter esta situação é Ellen, a esposa de Hutter, pois Orlock está atraído por ela.",
+"era": "XX",
+"platforms": [
+"Belas Artes à La Carte",
+"Bloodstream",
+"Filmicca",
+"Looke",
+"MUBI",
+"Telecine"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 92
+},
+"nLists": 1,
+"avgRank": 92.0,
+"points": 9
+},
+{
+"id": "11",
+"imdb_id": "tt0076759",
+"titleOrig": "Star Wars",
+"titlePt": "Guerra nas Estrelas",
+"year": 1977,
+"country": "EUA",
+"director": "George Lucas",
+"duration": 121,
+"genres": [
+"Aventura",
+"Ação",
+"Ficção científica"
+],
+"poster": "/dw7X9YPjjAfIxKHW04V64Bb9TB0.jpg",
+"overview": "A princesa Leia é mantida refém pelas forças imperiais comandadas por Darth Vader. Luke Skywalker e Han Solo precisam libertá-la e restaurar a liberdade e a justiça na galáxia.",
+"era": "XX",
+"platforms": [
+"Disney Plus"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 93
+},
+"nLists": 1,
+"avgRank": 93.0,
+"points": 8
+},
+{
+"id": "78",
+"imdb_id": "tt0083658",
+"titleOrig": "Blade Runner",
+"titlePt": "Blade Runner: O Caçador de Andróides",
+"year": 1982,
+"country": "EUA / Hong Kong / Reino Unido",
+"director": "Ridley Scott",
+"duration": 117,
+"genres": [
+"Ficção científica",
+"Drama",
+"Thriller"
+],
+"poster": "/y5ibL0vFnzsRiIHosw0WOfHtIj1.jpg",
+"overview": "No início do século 21, uma grande corporação desenvolve um robô que é mais forte e ágil que o ser humano e se equiparando em inteligência. São conhecidos como \"replicantes\" e utilizados como escravos na colonização e exploração de outros planetas. Mas, quando um grupo dos robôs mais evoluídos provoca um motim em uma colônia fora da Terra, este incidente faz os replicantes serem considerados ilegais na Terra, sob pena de morte. A partir de então, policiais de um esquadrão de elite conhecidos como \"Blade Runner\", têm ordem de atirar para matar em replicantes encontrados na Terra. Mas tal ato não é chamado de \"execução\" e sim de \"remoção\". Até que, em novembro de 2019, em Los Angeles, quando cinco replicantes chegam à Terra, o ex-Blade Runner, Deckard, é encarregado de caçá-los.",
+"era": "XX",
+"platforms": [
+"HBO Max",
+"Prime Video",
+"Telecine"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 94
+},
+"nLists": 1,
+"avgRank": 94.0,
+"points": 7
+},
+{
+"id": "1628",
+"imdb_id": "tt0055032",
+"titleOrig": "Jules et Jim",
+"titlePt": "Jules e Jim - Uma Mulher para Dois",
+"year": 1962,
+"country": "França",
+"director": "François Truffaut",
+"duration": 106,
+"genres": [
+"Drama",
+"Romance"
+],
+"poster": "/eBCu1Kk4pNOXd8c0TOu51qePFIQ.jpg",
+"overview": "Baseado no romance de Henri-Pierre Roché, este clássico da Nouvelle Vague narra um triângulo amoroso animado entre dois amigos, um francês e um alemão, e uma mulher sedutora, objeto de sua mútua obsessão, durante 25 anos.",
+"era": "XX",
+"platforms": [
+"MUBI",
+"Telecine"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 96
+},
+"nLists": 1,
+"avgRank": 96.0,
+"points": 5
+},
+{
+"id": "47795",
+"imdb_id": "tt0096288",
+"titleOrig": "Τοπίο στην ομίχλη",
+"titlePt": "Paisagem na Neblina",
+"year": 1988,
+"country": "França / Grécia / Itália",
+"director": "Θόδωρος Αγγελόπουλος",
+"duration": 125,
+"genres": [
+"Drama"
+],
+"poster": "/k4I9q9XrKmOaO95qD1yBxZpEuL0.jpg",
+"overview": "Duas crianças gregas embarcam numa jornada em busca do pai, que supostamente vive na Alemanha.",
+"era": "XX",
+"platforms": [],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 97
+},
+"nLists": 1,
+"avgRank": 97.0,
+"points": 4
+},
+{
+"id": "203",
+"imdb_id": "tt0070379",
+"titleOrig": "Mean Streets",
+"titlePt": "Caminhos Perigosos",
+"year": 1973,
+"country": "EUA",
+"director": "Martin Scorsese",
+"duration": 112,
+"genres": [
+"Drama",
+"Crime"
+],
+"poster": "/yNsh9hqjawnvAXWATmsy8pkNWdM.jpg",
+"overview": "Charlie é um homem que trabalha para crescer no submundo dos guetos de Little Italy, em Nova York. Ao seu lado, porém, está Johnny Boy, um jovem revoltado, agressivo e sem escrúpulos, que vive se metendo em confusões por causa de dívidas de jogo.",
+"era": "XX",
+"platforms": [
+"HBO Max"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 98
+},
+"nLists": 1,
+"avgRank": 98.0,
+"points": 3
+},
+{
+"id": "21734",
+"imdb_id": "tt0036342",
+"titleOrig": "Shadow of a Doubt",
+"titlePt": "A Sombra de uma Dúvida",
+"year": 1943,
+"country": "EUA",
+"director": "Alfred Hitchcock",
+"duration": 108,
+"genres": [
+"Thriller",
+"Mistério",
+"Crime"
+],
+"poster": "/k1lISSdqtJbFtn49tz8iGiyEDm8.jpg",
+"overview": "O Tio Charlie vai visitar seus parentes na cidadezinha de Santa Rosa. Mas sua sobrinha, também chamada de Charlie, começa a suspeitar de que ele é o famoso Assassino de Viúvas Alegre, um criminoso que está sendo procurado pela polícia e fugiu da Filadélfia para a Califórnia.",
+"era": "XX",
+"platforms": [
+"Looke"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 99
+},
+"nLists": 1,
+"avgRank": 99.0,
+"points": 2
+},
+{
+"id": "11906",
+"imdb_id": "tt0076786",
+"titleOrig": "Suspiria",
+"titlePt": "Suspiria",
+"year": 1977,
+"country": "Itália",
+"director": "Dario Argento",
+"duration": 99,
+"genres": [
+"Terror"
+],
+"poster": "/5ya8jTbNZTrCFUx9OwpNBjCivXY.jpg",
+"overview": "Susan é uma jovem americana que viaja para a Europa para estudar numa prestigiada escola de Balé. Desde o primeiro dia, porém, ela começa a se assustar com estranhas situações que ocorrem no local que a fazem crer que há bruxas por todas a parte.",
+"era": "XX",
+"platforms": [
+"Oldflix"
+],
+"streamingCheckedAt": "2026-07-31",
+"ranks": {
+"VIL": 100
 },
 "nLists": 1,
 "avgRank": 100.0,
