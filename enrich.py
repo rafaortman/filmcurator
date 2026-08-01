@@ -57,12 +57,26 @@ COUNTRY = {
 UNMAPPED_COUNTRIES = set()
 
 # ---- normalização de provedores de streaming (ver memória tmdb-enrichment) ----
+# Homônimas TMDB -> nome canônico (mesmo serviço, grafias diferentes).
+PROVIDER_ALIAS = {
+    "Max": "HBO Max",                 # Max voltou a se chamar HBO Max (2025)
+    "Disney Plus": "Disney+",
+    "MGM Plus": "MGM+",
+    "Filmelier Plus": "Filmelier+",
+    "Claro video": "Claro tv+",
+    "Lionsgate+s": "Lionsgate+",
+    "Belas Artes � La Carte": "Belas Artes à La Carte",  # legado: "à" corrompido
+}
+# Provedores que o TMDB lista como BR mas NÃO operam de fato no Brasil (ex.: bloqueados/VPN).
+PROVIDER_DROP = {"Sun Nxt"}           # serviço indiano, bloqueado no BR
+
 def norm_provider(name):
     n = name.replace(" Amazon Channel", "").replace(" Apple TV Channel", "")
     n = n.replace("Amazon Prime Video", "Prime Video").replace("Prime Video with Ads", "Prime Video")
     n = n.replace("Paramount Plus", "Paramount+").replace("Paramount+ Amazon Channel", "Paramount+")
     n = n.replace("Standard with Ads", "").replace(" Premium", "").strip()
-    return n
+    n = PROVIDER_ALIAS.get(n, n)
+    return "" if n in PROVIDER_DROP else n
 
 # ---- HTTP com cache em disco ----
 def get(path, params):
@@ -184,7 +198,7 @@ def build_row(tmdb_id):
             countries.append(c.get("name"))
     director = next((c["name"] for c in d.get("credits", {}).get("crew", []) if c.get("job") == "Director"), "")
     wp = d.get("watch/providers", {}).get("results", {}).get("BR", {}).get("flatrate", [])
-    plats = sorted({norm_provider(p["provider_name"]) for p in wp})
+    plats = sorted({n for p in wp if (n := norm_provider(p["provider_name"]))})
     return {
         "id": str(tmdb_id),
         "imdb_id": d.get("external_ids", {}).get("imdb_id", "") or "",

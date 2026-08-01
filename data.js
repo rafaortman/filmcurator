@@ -430,7 +430,7 @@ window.DB = {
 "overview": "Em uma noite de outono, Mark Zuckerberg, um brilhante estudante de Harvard, começa a trabalhar em um novo conceito que acaba se transformando em uma rede social global conhecida como Facebook. Seis anos e 500 milhões de amigos mais tarde, Zuckerberg se torna o mais jovem bilionário da história com o sucesso de sua rede social. No entanto, a sua ascensão sem precedentes traz complicações legais e pessoais.",
 "era": "XXI",
 "platforms": [
-"Max"
+"HBO Max"
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
@@ -857,7 +857,7 @@ window.DB = {
 "overview": "Após dois anos desde o surgimento do Batman, os criminosos de Gotham City têm muito o que temer. Com a ajuda do tenente James Gordon e do promotor público Harvey Dent, Batman luta contra o crime organizado. Acuados com o combate, os chefes do crime aceitam a proposta feita pelo Coringa e o contratam para combater o Homem-Morcego.",
 "era": "XXI",
 "platforms": [
-"Max",
+"HBO Max",
 "Claro tv+",
 "Telecine",
 "Universal+"
@@ -921,7 +921,7 @@ window.DB = {
 "overview": "Matt Kowalski é um astronauta experiente que está em missão de conserto ao telescópio Hubble juntamente com a doutora Ryan Stone. Ambos são surpreendidos por uma chuva de destroços decorrente da destruição de um satélite por um míssil russo, que faz com que sejam jogados no espaço sideral. Sem qualquer apoio da base terrestre da NASA, eles precisam encontrar um meio de sobreviver em meio a um ambiente completamente inóspito para a vida humana.",
 "era": "XXI",
 "platforms": [
-"Max"
+"HBO Max"
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
@@ -1005,7 +1005,7 @@ window.DB = {
 "era": "XXI",
 "platforms": [
 "Prime Video",
-"Max",
+"HBO Max",
 "Universal+"
 ],
 "streamingCheckedAt": "2026-07-31",
@@ -1314,7 +1314,7 @@ window.DB = {
 "overview": "Em um mundo apocalíptico, Max Rockatansky acredita que a melhor forma de sobreviver é não depender de ninguém. Porém, após ser capturado pelo tirano Immortan Joe e seus rebeldes, Max se vê no meio de uma guerra mortal, iniciada pela imperatriz Furiosa que tenta salvar um grupo de garotas. Também tentando fugir, Max aceita ajudar Furiosa. Dessa vez, o tirano Joe está ainda mais implacável pois teve algo insubstituível roubado.",
 "era": "XXI",
 "platforms": [
-"Max",
+"HBO Max",
 "Claro tv+",
 "Telecine"
 ],
@@ -1538,7 +1538,7 @@ window.DB = {
 "era": "XXI",
 "platforms": [
 "Netflix",
-"Max",
+"HBO Max",
 "Globoplay"
 ],
 "streamingCheckedAt": "2026-07-31",
@@ -1643,7 +1643,7 @@ window.DB = {
 "overview": "Durante os anos 60 e 70, o medo aumenta em São Francisco com os ataques de um assassino maníaco chamado Zodíaco. Investigadores e jornalistas tentam descobrir a identidade do assassino e levá-lo à justiça. Enquanto isso, Zodíaco provoca as autoridades com mensagens crípticas, cifras e telefonemas ameaçadores.",
 "era": "XXI",
 "platforms": [
-"Max",
+"HBO Max",
 "Telecine"
 ],
 "streamingCheckedAt": "2026-07-31",
@@ -1726,7 +1726,7 @@ window.DB = {
 "overview": "Em um futuro próximo, um escritor solitário desenvolve um relacionamento improvável com um sistema operacional projetado para atender todas as suas necessidades.",
 "era": "XXI",
 "platforms": [
-"Max"
+"HBO Max"
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
@@ -1866,7 +1866,7 @@ window.DB = {
 "overview": "Quando seres interplanetários deixam marcas na Terra, a Dra. Louise Banks, uma linguista especialista no assunto, é procurada por militares para traduzir os sinais e desvendar se os alienígenas representam uma ameaça. No entanto, a resposta para todas as perguntas e mistérios coloca em risco  a vida de Louise e a de toda a humanidade.",
 "era": "XXI",
 "platforms": [
-"Max",
+"HBO Max",
 "Claro tv+"
 ],
 "streamingCheckedAt": "2026-07-31",
@@ -1951,7 +1951,7 @@ window.DB = {
 "era": "XXI",
 "platforms": [
 "Netflix",
-"Max",
+"HBO Max",
 "Telecine"
 ],
 "streamingCheckedAt": "2026-07-31",
@@ -2407,7 +2407,7 @@ window.DB = {
 "overview": "O gerente geral da Oakland A, Billy Beane, desafia o sistema e a sabedoria convencional quando é forçado a recompor sua pequena equipe com um orçamento baixo. Apesar da oposição da velha guarda, a mídia, fãs e o próprio gerente de campo, Beane – com a ajuda de um economista jovem, formado em Yale – cria uma lista de desajustados... e acaba mudando para sempre o modo como o baseball é jogado.",
 "era": "XXI",
 "platforms": [
-"Max",
+"HBO Max",
 "Sony One"
 ],
 "streamingCheckedAt": "2026-07-31",
@@ -2732,7 +2732,7 @@ window.DB = {
 "era": "XXI",
 "platforms": [
 "Prime Video",
-"Max",
+"HBO Max",
 "Telecine",
 "Universal+"
 ],
@@ -2762,7 +2762,7 @@ window.DB = {
 "overview": "Cinebiografia do famoso pianista Liberace, que mostra os cinco anos em que o artista namorou Scott Thorson, em uma relação turbulenta que terminou com um longo processo judicial.",
 "era": "XXI",
 "platforms": [
-"Max"
+"HBO Max"
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
@@ -2972,7 +2972,7 @@ window.DB = {
 "overview": "Andrew sonha em ser o melhor baterista de sua geração. Ele chama a atenção do impiedoso mestre do jazz Terence Fletcher, que ultrapassa os limites e transforma seu sonho em uma obsessão, colocando em risco a saúde física e mental do jovem músico.",
 "era": "XXI",
 "platforms": [
-"Max",
+"HBO Max",
 "Sony One"
 ],
 "streamingCheckedAt": "2026-07-31",
@@ -3082,7 +3082,7 @@ window.DB = {
 "Claro tv+",
 "Filmelier+",
 "Universal+",
-"Lionsgate+s"
+"Lionsgate+"
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
@@ -3712,7 +3712,7 @@ window.DB = {
 "era": "XXI",
 "platforms": [
 "Prime Video",
-"Max",
+"HBO Max",
 "Claro tv+",
 "Diamond Films"
 ],
@@ -3793,7 +3793,7 @@ window.DB = {
 "era": "XXI",
 "platforms": [
 "Filmelier+",
-"Lionsgate+s"
+"Lionsgate+"
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
@@ -4065,7 +4065,7 @@ window.DB = {
 "era": "XXI",
 "platforms": [
 "Netflix",
-"Max",
+"HBO Max",
 "Claro tv+"
 ],
 "streamingCheckedAt": "2026-07-31",
@@ -4171,7 +4171,7 @@ window.DB = {
 "overview": "As reservas naturais da Terra estão chegando ao fim e um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie. Cooper é chamado para liderar o grupo e aceita a missão sabendo que pode nunca mais ver os filhos. Ao lado de Brand, Jenkins e Doyle, ele seguirá em busca de um novo lar.",
 "era": "XXI",
 "platforms": [
-"Max",
+"HBO Max",
 "Claro tv+"
 ],
 "streamingCheckedAt": "2026-07-31",
@@ -4986,7 +4986,7 @@ window.DB = {
 "overview": "Tom Stall leva uma vida tranquila e feliz na pequena cidade de Millbrook, no estado de Indiana, onde mora com sua esposa Edie e seus dois filhos. Um dia esta rotina de calmaria é interrompida quando Tom consegue impedir um assalto em seu restaurante. Percebendo o perigo, Tom se antecipa e consegue salvar seus clientes e amigos e, em legítima defesa, mata dois criminosos. Considerado um herói, Tom tem sua vida inteiramente transformada a partir de então. A mídia passa a segui-lo, o que o obriga a falar com ela regularmente e faz com que ele deseje que sua vida retorne à calmaria anterior. Surge então em sua vida Carl Fogarty, um misterioso homem que acredita que Tom lhe fez mal no passado.",
 "era": "XXI",
 "platforms": [
-"Max"
+"HBO Max"
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
@@ -5375,7 +5375,7 @@ window.DB = {
 "overview": "Qualquer pessoa na América em 1880 conhece Jesse James. Ele é o criminoso mais conhecido em todo país, caçado implacavelmente pela lei em dez estados. Ele é também um dos maiores heróis do seu tempo, comparado à Robin Hood pelo público. Robert Ford? Ninguém conhece esse nome. Ainda não... Este jovem ambicioso de apenas 19 anos de idade faz planos para mudar isso. Ele se aproximará de Jesse, cavalgará ao lado do seu bando e conquistará sua amizade. E se isso ainda não trouxer a fama para Ford, ele arrumará uma outra maneira. Uma maneira mortal!",
 "era": "XXI",
 "platforms": [
-"Max"
+"HBO Max"
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
@@ -5663,7 +5663,6 @@ window.DB = {
 "overview": "O pugilista peso-médio Jake LaMotta, chamado de \"o touro do Bronx\", sobe na carreira com a mesma rapidez com que sua vida particular se degrada, graças ao seu temperamento violento e possessivo. Todos ao seu redor são afetados por seu comportamento auto-destrutivo, como seu irmão e empresário Joey LaMotta e sua esposa Vickie.",
 "era": "XX",
 "platforms": [
-"MGM Plus",
 "MGM+",
 "MUBI"
 ],
@@ -5832,7 +5831,6 @@ window.DB = {
 "overview": "Após retornar como herói da Guerra da Coréia, Raymond Shaw (Laurence Harvey) e seu pelotão não conseguem se lembrar direito o que aconteceu para ele ter recebido tal condecoração. Bennett Marco (Frank Sinatra) e um outro soldado, que faziam parte do pelotão, começam a ter pesadelos horríveis sobre alguns acontecimentos vividos durante a guerra. Marco então pesquisa sobre a vida atual de Shaw, e descobre que segredos horríveis podem estar guardados sob a memória perdida, inclusive de que Shaw pode estar sendo manipulado pelos seus inimigos através de uma perigosa lavagem cerebral.",
 "era": "XX",
 "platforms": [
-"MGM Plus",
 "MGM+"
 ],
 "streamingCheckedAt": "2026-07-31",
@@ -5861,7 +5859,6 @@ window.DB = {
 "overview": "Jerry Lundegaard é um vendedor de carros que se endividou e está desesperado por dinheiro. Ele contrata dois bandidos para sequestrar sua própria esposa e seu sogro o ajuda a pagar o resgate. Tudo acontece como o planejado até o momento em que os bandidos atiram em um policial.",
 "era": "XX",
 "platforms": [
-"MGM Plus",
 "MGM+"
 ],
 "streamingCheckedAt": "2026-07-31",
@@ -6007,7 +6004,6 @@ window.DB = {
 "overview": "Em 1929, Joe e Jerry, dois músicos desempregados, testemunham sem querer o cruel Massacre do Dia de São Valentim. Desesperados para não serem pegos pelos gangsters, eles se disfarçam de mulheres e entram para um grupo feminino musical, que está indo para Miami fazer shows. Joe se apaixona por Sugar, a garota problema do grupo, enquanto um milionário se apaixona pelo disfarce de Jerry, tudo isso em meio a uma convenção de criminosos, que também está acontecendo em Miami.",
 "era": "XX",
 "platforms": [
-"MGM Plus",
 "MGM+",
 "MUBI"
 ],
@@ -6118,7 +6114,7 @@ window.DB = {
 "overview": "Sam Lowry vive num Estado totalitário, controlado pelos computadores e pela burocracia. Neste Estado, que lida com o terrorismo, todos são governados por fichas e cartões de crédito e ainda precisam pagar por tudo, até mesmo a permanência na prisão. Neste mundo opressivo, Sam acaba se apaixonando por Jill, uma terrorista.",
 "era": "XX",
 "platforms": [
-"Disney Plus",
+"Disney+",
 "Prime Video"
 ],
 "streamingCheckedAt": "2026-07-31",
@@ -6378,7 +6374,7 @@ window.DB = {
 "overview": "Um terrível ataque a banhistas é o sinal de que a praia da pequena cidade de Amity virou refeitório de um gigantesco tubarão branco, que começa a se alimentar dos turistas. Embora o prefeito queira esconder os fatos da mídia, o xerife local pede ajuda a um ictiologista e a um pescador veterano para caçar o animal. Mas a missão vai ser mais complicada do que eles imaginavam.",
 "era": "XX",
 "platforms": [
-"Claro video",
+"Claro tv+",
 "Telecine"
 ],
 "streamingCheckedAt": "2026-07-31",
@@ -6459,7 +6455,6 @@ window.DB = {
 "overview": "Clarice Starling é uma das melhores estudantes da academia de treinamento do FBI. Jack Crawford quer que Clarice entreviste o Dr. Hannibal Lecter, um psiquiatra brilhante e também um psicopata violento, que cumpre prisão perpétua por vários atos de assassinato e canibalismo. Crawford acredita que Lecter pode ter uma visão em um caso e que Starling, como uma mulher jovem e atraente, pode ser a isca para atraí-lo.",
 "era": "XX",
 "platforms": [
-"MGM Plus",
 "MGM+",
 "MUBI",
 "Paramount+"
@@ -6490,7 +6485,7 @@ window.DB = {
 "overview": "As forças imperais comandadas por Darth Vader lançam um ataque contra os membros da resistência, que são obrigados a fugir. Enquanto isso Luke Skywalker tenta encontrar o Mestre Yoda, que poderá ensiná-lo a dominar a \"Força\" e torná-lo um cavaleiro jedi. No entanto, Darth Vader planeja levá-lo para o lado negro da \"Força\".",
 "era": "XX",
 "platforms": [
-"Disney Plus"
+"Disney+"
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
@@ -6518,7 +6513,7 @@ window.DB = {
 "overview": "Um diretor ambicioso, porém problemático, se esforça ao máximo para realizar o seu sonho, apesar da falta de apoio.",
 "era": "XX",
 "platforms": [
-"Disney Plus"
+"Disney+"
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
@@ -6543,9 +6538,7 @@ window.DB = {
 "poster": "/qTkhxFQ0o6DEtTtPXkv4IA5M90J.jpg",
 "overview": "Richard Frost (John Marley) resolveu deixar sua esposa, Maria (Lynn Carlin), para se encontrar com a jovem Jeannie Rapp (Gena Rowlands), que conheceu recentemente em um bar. Maria, por sua vez, decide ir a uma boate, onde se deixa seduzir por um garoto de programa.",
 "era": "XX",
-"platforms": [
-"Sun Nxt"
-],
+"platforms": [],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
 "ROL": 37
@@ -6572,7 +6565,6 @@ window.DB = {
 "overview": "Alvy Singer, um humorista judeu e divorciado que faz análise há 15 anos, acaba se apaixonando por Annie Hall, uma cantora em início de carreira com uma cabeça um pouco complicada. Em um curto espaço de tempo eles estão morando juntos, mas, depois de um certo período, crises conjugais começam a surgir entre os dois.",
 "era": "XX",
 "platforms": [
-"MGM Plus",
 "MGM+",
 "Oldflix"
 ],
@@ -6845,7 +6837,6 @@ window.DB = {
 "era": "XX",
 "platforms": [
 "Claro tv+",
-"MGM Plus",
 "MGM+",
 "MUBI"
 ],
@@ -7437,7 +7428,7 @@ window.DB = {
 "era": "XX",
 "platforms": [
 "Belas Artes à La Carte",
-"Filmelier Plus"
+"Filmelier+"
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
@@ -7552,7 +7543,7 @@ window.DB = {
 "overview": "Programa de perguntas e respostas na TV, nos anos 1950, é investigado e se descobre que, visando a audiência, produtores passam a dar as respostas a um jovem de família rica, que passa a ganhar de um rapaz judeu muito mais inteligente.",
 "era": "XX",
 "platforms": [
-"Disney Plus"
+"Disney+"
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
@@ -7655,7 +7646,6 @@ window.DB = {
 "overview": "Em um futuro próximo, a guerra entre humanos e máquinas foi iniciada. Com a tecnologia a seu dispor, um plano inusitado é arquitetado pelas máquinas ao enviar para o passado um andróide com a missão de matar a mãe daquele que viria a se transformar num líder e seu pior inimigo. Contudo, os humanos também conseguem enviar seu representante para proteger a mulher e tentar garantir o futuro da humanidade.",
 "era": "XX",
 "platforms": [
-"MGM Plus",
 "MGM+"
 ],
 "streamingCheckedAt": "2026-07-31",
@@ -7822,7 +7812,6 @@ window.DB = {
 "overview": "Jack Terry é um sonoplasta e está acostumado a diversos tipos de sons, mas um em especial muda sua vida. Ele grava um disparo comprometedor e acaba se tornando alvo do assassino de um candidato a presidente.",
 "era": "XX",
 "platforms": [
-"MGM Plus",
 "MGM+"
 ],
 "streamingCheckedAt": "2026-07-31",
@@ -9755,7 +9744,7 @@ window.DB = {
 "overview": "Em 1973, a polícia texana deu como encerrado o caso de um terrível massacre de 33 pessoas provocado por um homem que usava uma máscara feita de pele humana. Nos anos que se seguiram os policiais foram acusados de fazer uma péssima investigação e de terem matado o cara errado. Só que dessa vez, o único sobrevivente do massacre vai contar em detalhes o que realmente aconteceu na deserta estrada do Texas, quando ele e mais 4 amigos estavam indo visitar o seu avô.",
 "era": "XX",
 "platforms": [
-"Filmelier Plus",
+"Filmelier+",
 "MUBI"
 ],
 "streamingCheckedAt": "2026-07-31",
@@ -10027,7 +10016,7 @@ window.DB = {
 "overview": "A princesa Leia é mantida refém pelas forças imperiais comandadas por Darth Vader. Luke Skywalker e Han Solo precisam libertá-la e restaurar a liberdade e a justiça na galáxia.",
 "era": "XX",
 "platforms": [
-"Disney Plus"
+"Disney+"
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {

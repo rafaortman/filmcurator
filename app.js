@@ -221,6 +221,79 @@ function syncListChips(){
 syncListChips();
 render();
 
+// ---- Colapsar filtros (default fechado; no desktop o CSS mantém aberto) ----
+const filtersEl = document.querySelector('.filters');
+$('filtersToggle').addEventListener('click', () => {
+  const collapsed = filtersEl.classList.toggle('collapsed');
+  $('filtersToggle').setAttribute('aria-expanded', String(!collapsed));
+});
+
+// ---- Sorteio ----
+const shuffleModal  = $('shuffleModal');
+const shuffleResult = $('shuffleResult');
+const selGenre = $('lockGenre');
+const selPlat  = $('lockPlatform');
+let currentDraw = null;    // filme sorteado atual (null = sem resultado)
+
+// Opções dos selects de critério: todos os gêneros / plataformas da base.
+uniqueSorted(M.flatMap(m => m.genres)).forEach(g => selGenre.add(new Option(g, g)));
+uniqueSorted(M.flatMap(m => m.platforms)).forEach(p => selPlat.add(new Option(p, p)));
+
+// Pool base respeita os filtros já aplicados na barra lateral.
+const basePool = () => M.filter(matches);
+
+// Pool do re-sorteio = base ∩ gênero fixado ∩ plataforma fixada.
+function drawPool(){
+  let pool = basePool();
+  if (selGenre.value) pool = pool.filter(m => m.genres.includes(selGenre.value));
+  if (selPlat.value)  pool = pool.filter(m => m.platforms.includes(selPlat.value));
+  return pool;
+}
+
+const pickRandom = pool => pool.length ? pool[Math.floor(Math.random() * pool.length)] : null;
+
+function renderResult(){
+  if (currentDraw){ shuffleResult.innerHTML = card(currentDraw); return; }
+  // Sem resultado: base vazia = filtros da barra; senão = critérios dos selects.
+  shuffleResult.innerHTML = basePool().length === 0
+    ? `<div class="modal-msg">Nenhum filme com os filtros da barra lateral.<br>Feche o sorteio e ajuste os filtros para começar.</div>`
+    : `<div class="modal-msg">Nenhum filme com esse gênero e plataforma.<br>Altere os critérios abaixo e sorteie de novo.
+         <br><button type="button" class="reset" id="clearReroll">Limpar critérios</button></div>`;
+}
+
+function openShuffle(){
+  selGenre.value = ''; selPlat.value = '';
+  currentDraw = pickRandom(basePool());
+  renderResult();
+  shuffleModal.classList.add('open');
+}
+const closeShuffle = () => shuffleModal.classList.remove('open');
+
+$('shuffle').addEventListener('click', openShuffle);
+$('shuffleClose').addEventListener('click', closeShuffle);
+shuffleModal.addEventListener('click', e => { if (e.target === shuffleModal) closeShuffle(); });
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeShuffle(); });
+
+// Sortear de novo respeita gênero + plataforma fixados (interseção); vazio → tela de sem-resultados.
+$('shuffleAgain').addEventListener('click', () => {
+  currentDraw = pickRandom(drawPool());
+  renderResult();
+});
+
+// Cliques no resultado: "Limpar critérios" · card (busca no Google).
+shuffleResult.addEventListener('click', e => {
+  if (e.target.closest('#clearReroll')){
+    selGenre.value = ''; selPlat.value = '';
+    currentDraw = pickRandom(basePool());
+    renderResult();
+    return;
+  }
+  const cardEl = e.target.closest('.card');
+  if (cardEl && cardEl.dataset.q && !String(window.getSelection())){
+    window.open('https://www.google.com/search?q=' + encodeURIComponent(cardEl.dataset.q), '_blank', 'noopener');
+  }
+});
+
 // ---- Footer: data de atualização = checagem de streaming mais recente ----
 (() => {
   const el = $('updated'); if (!el) return;
