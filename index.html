@@ -343,7 +343,7 @@
       display: grid;
       column-gap: 18px;
       row-gap: 10px;
-      grid-template-columns: 120px minmax(0, 1fr) minmax(0, 1.5fr);
+      grid-template-columns: 150px minmax(0, 1fr) minmax(0, 1.5fr);
       grid-template-areas: "poster body synopsis"
     }
 
@@ -474,9 +474,12 @@
     }
 
     .b.both {
-      background: rgba(245, 197, 24, .18);
-      color: var(--accent);
-      border: 1px solid rgba(245, 197, 24, .45)
+      display: block;
+      padding: 0;
+      border-radius: 0;
+      background: none;
+      border: none;
+      color: var(--accent)
     }
 
     .b.pts {

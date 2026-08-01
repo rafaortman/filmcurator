@@ -44,6 +44,15 @@ window.DB = {
 "scope": "Poll com ~50 críticos de cinema",
 "era": "XX",
 "color": "#d9a441"
+},
+"SIS": {
+"label": "Sight & Sound",
+"full": "The Greatest Films of All Time",
+"year": 2022,
+"url": "",
+"scope": "Poll decenal do BFI com ~1600 críticos (all-time, não só séc. XX)",
+"era": "ALL",
+"color": "#cf6a9c"
 }
 },
 "movies": [
@@ -98,11 +107,12 @@ window.DB = {
 "ranks": {
 "GUA": 5,
 "NYT": 4,
-"BBC": 2
+"BBC": 2,
+"SIS": 5
 },
-"nLists": 3,
-"avgRank": 3.7,
-"points": 292
+"nLists": 4,
+"avgRank": 4.0,
+"points": 388
 },
 {
 "id": "1018",
@@ -128,11 +138,12 @@ window.DB = {
 "ranks": {
 "GUA": 11,
 "NYT": 2,
-"BBC": 1
+"BBC": 1,
+"SIS": 8
 },
-"nLists": 3,
-"avgRank": 4.7,
-"points": 289
+"nLists": 4,
+"avgRank": 5.5,
+"points": 382
 },
 {
 "id": "376867",
@@ -156,11 +167,12 @@ window.DB = {
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
 "GUA": 8,
-"NYT": 5
+"NYT": 5,
+"SIS": 62
 },
-"nLists": 2,
-"avgRank": 6.5,
-"points": 189
+"nLists": 3,
+"avgRank": 25.0,
+"points": 228
 },
 {
 "id": "85350",
@@ -214,11 +226,12 @@ window.DB = {
 "ranks": {
 "GUA": 22,
 "NYT": 9,
-"BBC": 4
+"BBC": 4,
+"SIS": 77
 },
-"nLists": 3,
-"avgRank": 11.7,
-"points": 268
+"nLists": 4,
+"avgRank": 28.0,
+"points": 292
 },
 {
 "id": "419430",
@@ -244,11 +257,12 @@ window.DB = {
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
 "GUA": 25,
-"NYT": 8
+"NYT": 8,
+"SIS": 97
 },
-"nLists": 2,
-"avgRank": 16.5,
-"points": 169
+"nLists": 3,
+"avgRank": 43.3,
+"points": 173
 },
 {
 "id": "120467",
@@ -2133,11 +2147,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"NYT": 38
+"NYT": 38,
+"SIS": 30
 },
-"nLists": 1,
-"avgRank": 38.0,
-"points": 63
+"nLists": 2,
+"avgRank": 34.0,
+"points": 134
 },
 {
 "id": "57120",
@@ -3915,11 +3930,12 @@ window.DB = {
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
 "GUA": 84,
-"BBC": 52
+"BBC": 52,
+"SIS": 100
 },
-"nLists": 2,
-"avgRank": 68.0,
-"points": 66
+"nLists": 3,
+"avgRank": 78.7,
+"points": 67
 },
 {
 "id": "62215",
@@ -4106,11 +4122,12 @@ window.DB = {
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
 "NYT": 88,
-"BBC": 99
+"BBC": 99,
+"SIS": 70
 },
-"nLists": 2,
-"avgRank": 93.5,
-"points": 15
+"nLists": 3,
+"avgRank": 85.7,
+"points": 46
 },
 {
 "id": "194101",
@@ -5472,11 +5489,12 @@ window.DB = {
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
 "ROL": 1,
-"VIL": 12
+"VIL": 12,
+"SIS": 12
 },
-"nLists": 2,
-"avgRank": 6.5,
-"points": 189
+"nLists": 3,
+"avgRank": 8.3,
+"points": 278
 },
 {
 "id": "240",
@@ -5530,11 +5548,12 @@ window.DB = {
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
 "ROL": 2,
-"VIL": 3
+"VIL": 3,
+"SIS": 2
 },
-"nLists": 2,
-"avgRank": 2.5,
-"points": 197
+"nLists": 3,
+"avgRank": 2.3,
+"points": 296
 },
 {
 "id": "3114",
@@ -5559,11 +5578,12 @@ window.DB = {
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
 "ROL": 3,
-"VIL": 4
+"VIL": 4,
+"SIS": 15
 },
-"nLists": 2,
-"avgRank": 3.5,
-"points": 195
+"nLists": 3,
+"avgRank": 7.3,
+"points": 281
 },
 {
 "id": "62",
@@ -5588,11 +5608,12 @@ window.DB = {
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
 "ROL": 4,
-"VIL": 11
+"VIL": 11,
+"SIS": 6
 },
-"nLists": 2,
-"avgRank": 7.5,
-"points": 187
+"nLists": 3,
+"avgRank": 7.0,
+"points": 282
 },
 {
 "id": "15",
@@ -5618,11 +5639,12 @@ window.DB = {
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
 "ROL": 5,
-"VIL": 1
+"VIL": 1,
+"SIS": 3
 },
-"nLists": 2,
+"nLists": 3,
 "avgRank": 3.0,
-"points": 196
+"points": 294
 },
 {
 "id": "1578",
@@ -5731,11 +5753,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"ROL": 9
+"ROL": 9,
+"SIS": 85
 },
-"nLists": 1,
-"avgRank": 9.0,
-"points": 92
+"nLists": 2,
+"avgRank": 47.0,
+"points": 108
 },
 {
 "id": "680",
@@ -5898,11 +5921,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"ROL": 15
+"ROL": 15,
+"SIS": 24
 },
-"nLists": 1,
-"avgRank": 15.0,
-"points": 86
+"nLists": 2,
+"avgRank": 19.5,
+"points": 163
 },
 {
 "id": "3112",
@@ -5928,11 +5952,12 @@ window.DB = {
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
 "ROL": 16,
-"VIL": 35
+"VIL": 35,
+"SIS": 26
 },
-"nLists": 2,
-"avgRank": 25.5,
-"points": 151
+"nLists": 3,
+"avgRank": 25.7,
+"points": 226
 },
 {
 "id": "992",
@@ -5957,11 +5982,12 @@ window.DB = {
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
 "ROL": 17,
-"VIL": 42
+"VIL": 42,
+"SIS": 57
 },
-"nLists": 2,
-"avgRank": 29.5,
-"points": 143
+"nLists": 3,
+"avgRank": 38.7,
+"points": 187
 },
 {
 "id": "239",
@@ -5987,11 +6013,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"ROL": 18
+"ROL": 18,
+"SIS": 39
 },
-"nLists": 1,
-"avgRank": 18.0,
-"points": 83
+"nLists": 2,
+"avgRank": 28.5,
+"points": 145
 },
 {
 "id": "3121",
@@ -6235,11 +6262,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"ROL": 27
+"ROL": 27,
+"SIS": 63
 },
-"nLists": 1,
-"avgRank": 27.0,
-"points": 74
+"nLists": 2,
+"avgRank": 45.0,
+"points": 112
 },
 {
 "id": "1585",
@@ -6296,11 +6324,12 @@ window.DB = {
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
 "ROL": 29,
-"VIL": 73
+"VIL": 73,
+"SIS": 10
 },
-"nLists": 2,
-"avgRank": 51.0,
-"points": 100
+"nLists": 3,
+"avgRank": 37.3,
+"points": 191
 },
 {
 "id": "654",
@@ -6631,11 +6660,12 @@ window.DB = {
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
 "ROL": 41,
-"VIL": 30
+"VIL": 30,
+"SIS": 65
 },
-"nLists": 2,
-"avgRank": 35.5,
-"points": 131
+"nLists": 3,
+"avgRank": 45.3,
+"points": 167
 },
 {
 "id": "891",
@@ -6791,11 +6821,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"ROL": 47
+"ROL": 47,
+"SIS": 71
 },
-"nLists": 1,
-"avgRank": 47.0,
-"points": 54
+"nLists": 2,
+"avgRank": 59.0,
+"points": 84
 },
 {
 "id": "10774",
@@ -6906,11 +6937,12 @@ window.DB = {
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
 "ROL": 51,
-"VIL": 22
+"VIL": 22,
+"SIS": 37
 },
-"nLists": 2,
-"avgRank": 36.5,
-"points": 129
+"nLists": 3,
+"avgRank": 36.7,
+"points": 193
 },
 {
 "id": "44494",
@@ -6962,11 +6994,12 @@ window.DB = {
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
 "ROL": 53,
-"VIL": 2
+"VIL": 2,
+"SIS": 13
 },
-"nLists": 2,
-"avgRank": 27.5,
-"points": 147
+"nLists": 3,
+"avgRank": 22.7,
+"points": 235
 },
 {
 "id": "2457",
@@ -7017,11 +7050,12 @@ window.DB = {
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
 "ROL": 55,
-"VIL": 37
+"VIL": 37,
+"SIS": 41
 },
-"nLists": 2,
-"avgRank": 46.0,
-"points": 110
+"nLists": 3,
+"avgRank": 44.3,
+"points": 170
 },
 {
 "id": "27030",
@@ -7046,11 +7080,12 @@ window.DB = {
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
 "ROL": 56,
-"VIL": 24
+"VIL": 24,
+"SIS": 90
 },
-"nLists": 2,
-"avgRank": 40.0,
-"points": 122
+"nLists": 3,
+"avgRank": 56.7,
+"points": 133
 },
 {
 "id": "18148",
@@ -7074,11 +7109,12 @@ window.DB = {
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
 "ROL": 57,
-"VIL": 36
+"VIL": 36,
+"SIS": 4
 },
-"nLists": 2,
-"avgRank": 46.5,
-"points": 109
+"nLists": 3,
+"avgRank": 32.3,
+"points": 206
 },
 {
 "id": "346",
@@ -7102,11 +7138,12 @@ window.DB = {
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
 "ROL": 58,
-"VIL": 23
+"VIL": 23,
+"SIS": 20
 },
-"nLists": 2,
-"avgRank": 40.5,
-"points": 121
+"nLists": 3,
+"avgRank": 33.7,
+"points": 202
 },
 {
 "id": "5801",
@@ -7128,11 +7165,12 @@ window.DB = {
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
 "ROL": 59,
-"VIL": 13
+"VIL": 13,
+"SIS": 35
 },
-"nLists": 2,
-"avgRank": 36.0,
-"points": 130
+"nLists": 3,
+"avgRank": 35.7,
+"points": 196
 },
 {
 "id": "269",
@@ -7156,11 +7194,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"ROL": 60
+"ROL": 60,
+"SIS": 40
 },
-"nLists": 1,
-"avgRank": 60.0,
-"points": 41
+"nLists": 2,
+"avgRank": 50.0,
+"points": 102
 },
 {
 "id": "147",
@@ -7185,11 +7224,12 @@ window.DB = {
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
 "ROL": 61,
-"VIL": 47
+"VIL": 47,
+"SIS": 50
 },
-"nLists": 2,
-"avgRank": 54.0,
-"points": 94
+"nLists": 3,
+"avgRank": 52.7,
+"points": 145
 },
 {
 "id": "439",
@@ -7210,11 +7250,12 @@ window.DB = {
 "platforms": [],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"ROL": 62
+"ROL": 62,
+"SIS": 61
 },
-"nLists": 1,
-"avgRank": 62.0,
-"points": 39
+"nLists": 2,
+"avgRank": 61.5,
+"points": 79
 },
 {
 "id": "4497",
@@ -7263,11 +7304,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"ROL": 64
+"ROL": 64,
+"SIS": 18
 },
-"nLists": 1,
-"avgRank": 64.0,
-"points": 37
+"nLists": 2,
+"avgRank": 41.0,
+"points": 120
 },
 {
 "id": "8416",
@@ -7458,11 +7500,12 @@ window.DB = {
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
 "ROL": 71,
-"VIL": 38
+"VIL": 38,
+"SIS": 36
 },
-"nLists": 2,
-"avgRank": 54.5,
-"points": 93
+"nLists": 3,
+"avgRank": 48.3,
+"points": 158
 },
 {
 "id": "10784",
@@ -7728,11 +7771,12 @@ window.DB = {
 "platforms": [],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"ROL": 81
+"ROL": 81,
+"SIS": 51
 },
-"nLists": 1,
-"avgRank": 81.0,
-"points": 20
+"nLists": 2,
+"avgRank": 66.0,
+"points": 70
 },
 {
 "id": "1052",
@@ -8262,11 +8306,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"VIL": 5
+"VIL": 5,
+"SIS": 9
 },
-"nLists": 1,
-"avgRank": 5.0,
-"points": 96
+"nLists": 2,
+"avgRank": 7.0,
+"points": 188
 },
 {
 "id": "631",
@@ -8289,11 +8334,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"VIL": 6
+"VIL": 6,
+"SIS": 11
 },
-"nLists": 1,
-"avgRank": 6.0,
-"points": 95
+"nLists": 2,
+"avgRank": 8.5,
+"points": 185
 },
 {
 "id": "43904",
@@ -8317,11 +8363,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"VIL": 7
+"VIL": 7,
+"SIS": 34
 },
-"nLists": 1,
-"avgRank": 7.0,
-"points": 94
+"nLists": 2,
+"avgRank": 20.5,
+"points": 161
 },
 {
 "id": "780",
@@ -8346,11 +8393,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"VIL": 8
+"VIL": 8,
+"SIS": 22
 },
-"nLists": 1,
-"avgRank": 8.0,
-"points": 93
+"nLists": 2,
+"avgRank": 15.0,
+"points": 172
 },
 {
 "id": "20108",
@@ -8374,11 +8422,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"VIL": 9
+"VIL": 9,
+"SIS": 25
 },
-"nLists": 1,
-"avgRank": 9.0,
-"points": 92
+"nLists": 2,
+"avgRank": 17.0,
+"points": 168
 },
 {
 "id": "548",
@@ -8403,11 +8452,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"VIL": 10
+"VIL": 10,
+"SIS": 42
 },
-"nLists": 1,
-"avgRank": 10.0,
-"points": 91
+"nLists": 2,
+"avgRank": 26.0,
+"points": 150
 },
 {
 "id": "618",
@@ -8455,11 +8505,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"VIL": 17
+"VIL": 17,
+"SIS": 48
 },
-"nLists": 1,
-"avgRank": 17.0,
-"points": 84
+"nLists": 2,
+"avgRank": 32.5,
+"points": 137
 },
 {
 "id": "44012",
@@ -8481,11 +8532,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"VIL": 19
+"VIL": 19,
+"SIS": 1
 },
-"nLists": 1,
-"avgRank": 19.0,
-"points": 82
+"nLists": 2,
+"avgRank": 10.0,
+"points": 182
 },
 {
 "id": "539",
@@ -8509,11 +8561,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"VIL": 20
+"VIL": 20,
+"SIS": 33
 },
-"nLists": 1,
-"avgRank": 20.0,
-"points": 81
+"nLists": 2,
+"avgRank": 26.5,
+"points": 149
 },
 {
 "id": "965",
@@ -8566,11 +8619,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"VIL": 26
+"VIL": 26,
+"SIS": 95
 },
-"nLists": 1,
-"avgRank": 26.0,
-"points": 75
+"nLists": 2,
+"avgRank": 60.5,
+"points": 81
 },
 {
 "id": "899",
@@ -8645,11 +8699,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"VIL": 29
+"VIL": 29,
+"SIS": 93
 },
-"nLists": 1,
-"avgRank": 29.0,
-"points": 72
+"nLists": 2,
+"avgRank": 61.0,
+"points": 80
 },
 {
 "id": "961",
@@ -8675,11 +8730,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"VIL": 32
+"VIL": 32,
+"SIS": 99
 },
-"nLists": 1,
-"avgRank": 32.0,
-"points": 69
+"nLists": 2,
+"avgRank": 65.5,
+"points": 71
 },
 {
 "id": "490",
@@ -8732,11 +8788,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"VIL": 34
+"VIL": 34,
+"SIS": 29
 },
-"nLists": 1,
-"avgRank": 34.0,
-"points": 67
+"nLists": 2,
+"avgRank": 31.5,
+"points": 139
 },
 {
 "id": "19",
@@ -8764,11 +8821,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"VIL": 40
+"VIL": 40,
+"SIS": 69
 },
-"nLists": 1,
-"avgRank": 40.0,
-"points": 61
+"nLists": 2,
+"avgRank": 54.5,
+"points": 93
 },
 {
 "id": "1626",
@@ -8843,11 +8901,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"VIL": 45
+"VIL": 45,
+"SIS": 83
 },
-"nLists": 1,
-"avgRank": 45.0,
-"points": 56
+"nLists": 2,
+"avgRank": 64.0,
+"points": 74
 },
 {
 "id": "3175",
@@ -8869,11 +8928,12 @@ window.DB = {
 "platforms": [],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"VIL": 46
+"VIL": 46,
+"SIS": 45
 },
-"nLists": 1,
-"avgRank": 46.0,
-"points": 55
+"nLists": 2,
+"avgRank": 45.5,
+"points": 111
 },
 {
 "id": "25768",
@@ -8921,11 +8981,12 @@ window.DB = {
 "platforms": [],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"VIL": 49
+"VIL": 49,
+"SIS": 56
 },
-"nLists": 1,
-"avgRank": 49.0,
-"points": 52
+"nLists": 2,
+"avgRank": 52.5,
+"points": 97
 },
 {
 "id": "962",
@@ -8979,11 +9040,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"VIL": 51
+"VIL": 51,
+"SIS": 46
 },
-"nLists": 1,
-"avgRank": 51.0,
-"points": 50
+"nLists": 2,
+"avgRank": 48.5,
+"points": 105
 },
 {
 "id": "86811",
@@ -9236,11 +9298,12 @@ window.DB = {
 "platforms": [],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"VIL": 64
+"VIL": 64,
+"SIS": 17
 },
-"nLists": 1,
-"avgRank": 64.0,
-"points": 37
+"nLists": 2,
+"avgRank": 40.5,
+"points": 121
 },
 {
 "id": "24192",
@@ -9289,11 +9352,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"VIL": 66
+"VIL": 66,
+"SIS": 68
 },
-"nLists": 1,
-"avgRank": 66.0,
-"points": 35
+"nLists": 2,
+"avgRank": 67.0,
+"points": 68
 },
 {
 "id": "3082",
@@ -9320,11 +9384,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"VIL": 67
+"VIL": 67,
+"SIS": 82
 },
-"nLists": 1,
-"avgRank": 67.0,
-"points": 34
+"nLists": 2,
+"avgRank": 74.5,
+"points": 53
 },
 {
 "id": "444465",
@@ -9448,11 +9513,12 @@ window.DB = {
 "platforms": [],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"VIL": 72
+"VIL": 72,
+"SIS": 27
 },
-"nLists": 1,
-"avgRank": 72.0,
-"points": 29
+"nLists": 2,
+"avgRank": 49.5,
+"points": 103
 },
 {
 "id": "8074",
@@ -9582,11 +9648,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"VIL": 79
+"VIL": 79,
+"SIS": 54
 },
-"nLists": 1,
-"avgRank": 79.0,
-"points": 22
+"nLists": 2,
+"avgRank": 66.5,
+"points": 69
 },
 {
 "id": "303",
@@ -9639,11 +9706,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"VIL": 81
+"VIL": 81,
+"SIS": 86
 },
-"nLists": 1,
-"avgRank": 81.0,
-"points": 20
+"nLists": 2,
+"avgRank": 83.5,
+"points": 35
 },
 {
 "id": "42254",
@@ -9875,11 +9943,12 @@ window.DB = {
 "platforms": [],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"VIL": 90
+"VIL": 90,
+"SIS": 80
 },
-"nLists": 1,
-"avgRank": 90.0,
-"points": 11
+"nLists": 2,
+"avgRank": 85.0,
+"points": 32
 },
 {
 "id": "4710",
@@ -9992,11 +10061,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"VIL": 94
+"VIL": 94,
+"SIS": 55
 },
-"nLists": 1,
-"avgRank": 94.0,
-"points": 7
+"nLists": 2,
+"avgRank": 74.5,
+"points": 53
 },
 {
 "id": "1628",
@@ -10130,6 +10200,1037 @@ window.DB = {
 "nLists": 1,
 "avgRank": 100.0,
 "points": 1
+},
+{
+"id": "14626",
+"imdb_id": "tt0209933",
+"titleOrig": "Beau Travail",
+"titlePt": "Bom Trabalho",
+"year": 2000,
+"country": "França",
+"director": "Claire Denis",
+"duration": 92,
+"genres": [
+"Drama"
+],
+"poster": "/zqJ0fjz3TdpbUIAlVaDQ7wd8Brh.jpg",
+"overview": "Em um campo de treinamento da Legião Francesa, no nordeste da costa africana, vemos a história de devoção do sargento Galoup ao enigmático comandante Bruno. Enquanto tentar entender seus conflituosos sentimentos, Galoup tem sua vida virada de cabeça para baixo com a chegada do novo recruta Guilles Sentain.",
+"era": "XXI",
+"platforms": [
+"Filmicca"
+],
+"streamingCheckedAt": "2026-08-01",
+"ranks": {
+"SIS": 7
+},
+"nLists": 1,
+"avgRank": 7.0,
+"points": 94
+},
+{
+"id": "499",
+"imdb_id": "tt0055852",
+"titleOrig": "Cléo de 5 à 7",
+"titlePt": "Cléo das 5 às 7",
+"year": 1962,
+"country": "França / Itália",
+"director": "Agnès Varda",
+"duration": 91,
+"genres": [
+"Drama"
+],
+"poster": "/p1Qab5pv7bOlu4N3Jjo2fkyp4ym.jpg",
+"overview": "Agnès Varda eloquentemente captura a Paris nos anos sessenta com este retrato em tempo real de uma cantora à deriva pela cidade enquanto aguarda os resultados dos testes de uma biópsia. Uma crônica dos minutos da vida de uma mulher, Cléo das 5 às 7 é uma mistura espirituosa de vérité e melodrama vívidos, apresentando uma partitura de Michel Legrand e cameos (breve participação) de Jean-Luc Godard e Anna Karina.",
+"era": "XX",
+"platforms": [
+"MUBI",
+"Reserva Imovision",
+"Telecine"
+],
+"streamingCheckedAt": "2026-08-01",
+"ranks": {
+"SIS": 14
+},
+"nLists": 1,
+"avgRank": 14.0,
+"points": 87
+},
+{
+"id": "27040",
+"imdb_id": "tt0036154",
+"titleOrig": "Meshes of the Afternoon",
+"titlePt": "Tramas do Entardecer",
+"year": 1943,
+"country": "EUA",
+"director": "Maya Deren",
+"duration": 14,
+"genres": [
+"Mistério",
+"Fantasia"
+],
+"poster": "/zGFxZcMYzwTzw6ViqevL57n808Q.jpg",
+"overview": "Maya Deren é uma mulher aprisionada dentro de casa, sufocada pelo cotidiano doméstico. Ela é atormentada por múltiplas visões, se despedaça em diferentes personalidades, e não consegue diferenciar muito bem, enquanto cochila, o sonho da realidade. Seu olhar para por longos segundos em qualquer objeto doméstico: uma faca em cima do pão, a porta destrancada, o telefone fora do gancho.",
+"era": "XX",
+"platforms": [],
+"streamingCheckedAt": "2026-08-01",
+"ranks": {
+"SIS": 16
+},
+"nLists": 1,
+"avgRank": 16.0,
+"points": 85
+},
+{
+"id": "28",
+"imdb_id": "tt0078788",
+"titleOrig": "Apocalypse Now",
+"titlePt": "Apocalypse Now",
+"year": 1979,
+"country": "EUA",
+"director": "Francis Ford Coppola",
+"duration": 196,
+"genres": [
+"Drama",
+"Guerra"
+],
+"poster": "/veXttPnNe8EZulvmeGTyDUrG9T4.jpg",
+"overview": "Durante a guerra do Vietnã, o Capitão Willard recebe como missão ir ao Camboja para assassinar um Boina Verde renegado, o Coronel Kurtz. Este vive no meio de uma tribo local e é venerado como um deus. Mas, chegado ao seu destino, o Capitão Willard descobre que a sua missão é bem diferente do que imaginara.",
+"era": "XX",
+"platforms": [],
+"streamingCheckedAt": "2026-08-01",
+"ranks": {
+"SIS": 19
+},
+"nLists": 1,
+"avgRank": 19.0,
+"points": 82
+},
+{
+"id": "20530",
+"imdb_id": "tt0041154",
+"titleOrig": "晩春",
+"titlePt": "Pai e Filha",
+"year": 1949,
+"country": "Japão",
+"director": "Yasujiro Ozu",
+"duration": 108,
+"genres": [
+"Drama"
+],
+"poster": "/zGosUxU59eimSt55WRg6uxSwuVa.jpg",
+"overview": "Noriko tem 27 anos de idade e ainda vive com o seu velho pai, o senhor Somiya. O pai é um professor viúvo que deseja casar sua filha, que de acordo com a sociedade, está na hora de entrar em um casamento. Só que Noriko quer continuar cuidado do pai e vivendo com ele para que o velho homem não se sinta sozinho. Ele então, vai fingir estar se casando de novo para que a filha não tenha culpa de se casar e ir embora.",
+"era": "XX",
+"platforms": [
+"Arte",
+"Belas Artes à La Carte",
+"Oldflix"
+],
+"streamingCheckedAt": "2026-08-01",
+"ranks": {
+"SIS": 21
+},
+"nLists": 1,
+"avgRank": 21.0,
+"points": 80
+},
+{
+"id": "10227",
+"imdb_id": "tt0062136",
+"titleOrig": "PlayTime",
+"titlePt": "Playtime - Tempo de Diversão",
+"year": 1967,
+"country": "França / Itália",
+"director": "Jacques Tati",
+"duration": 124,
+"genres": [
+"Comédia"
+],
+"poster": "/gYSYshXxK6PozPO9Bb32J8Jt7nA.jpg",
+"overview": "A jovem turista americana Barbara e o desajeitado francês Mr. Hulot se conhecem e acabam se encontram intermitentemente em suas jornadas paralelas pelas ruas de Paris.",
+"era": "XX",
+"platforms": [
+"Looke"
+],
+"streamingCheckedAt": "2026-08-01",
+"ranks": {
+"SIS": 23
+},
+"nLists": 1,
+"avgRank": 23.0,
+"points": 78
+},
+{
+"id": "46919",
+"imdb_id": "tt0060959",
+"titleOrig": "Sedmikrásky",
+"titlePt": "As Pequenas Margaridas",
+"year": 1966,
+"country": "Czechoslovakia",
+"director": "Věra Chytilová",
+"duration": 76,
+"genres": [
+"Comédia",
+"Drama"
+],
+"poster": "/eGofFNiE5K8p2XEXC6SrnnM8dE3.jpg",
+"overview": "Utilizando-se de avançados efeitos especiais para a época, Vera Chytilová dirigiu esta obra surrealista que conta a história de duas garotas chamadas Marie, que decidem se adequar ao mundo como ele está: sendo depravadas. Portanto, ambas partem para uma série de encontros forjados e travessuras, desconstruindo o mundo ao seu redor.",
+"era": "XX",
+"platforms": [],
+"streamingCheckedAt": "2026-08-01",
+"ranks": {
+"SIS": 28
+},
+"nLists": 1,
+"avgRank": 28.0,
+"points": 73
+},
+{
+"id": "422",
+"imdb_id": "tt0056801",
+"titleOrig": "8½",
+"titlePt": "Oito e Meio",
+"year": 1963,
+"country": "Itália / França",
+"director": "Federico Fellini",
+"duration": 139,
+"genres": [
+"Drama"
+],
+"poster": "/nQkrZRxnvrkb6BV7ZYmdwJoFGDt.jpg",
+"overview": "Prestes a rodar sua próxima obra, o cineasta Guido Anselmi ainda não tem idéia de como será o filme. Mergulhado em uma crise existencial e pressionado pelo produtor, pela mulher, pela amante e pelos amigos, ele se interna em uma estação de águas e passa a misturar o passado com o presente, ficção com realidade.",
+"era": "XX",
+"platforms": [],
+"streamingCheckedAt": "2026-08-01",
+"ranks": {
+"SIS": 31
+},
+"nLists": 1,
+"avgRank": 31.0,
+"points": 70
+},
+{
+"id": "592733",
+"imdb_id": "",
+"titleOrig": "Performer/Audience/Mirror",
+"titlePt": "Performer/Audience/Mirror",
+"year": 1975,
+"country": "",
+"director": "Dan Graham",
+"duration": 23,
+"genres": [],
+"poster": "/ahM5IQONsPP75zPTz0iYOpTmRWc.jpg",
+"overview": "",
+"era": "XX",
+"platforms": [],
+"streamingCheckedAt": "2026-08-01",
+"ranks": {
+"SIS": 32
+},
+"nLists": 1,
+"avgRank": 32.0,
+"points": 69
+},
+{
+"id": "567",
+"imdb_id": "tt0047396",
+"titleOrig": "Rear Window",
+"titlePt": "Janela Indiscreta",
+"year": 1954,
+"country": "EUA",
+"director": "Alfred Hitchcock",
+"duration": 112,
+"genres": [
+"Thriller",
+"Mistério",
+"Drama"
+],
+"poster": "/ckYI4gqqKlSWAVwtLfZSUfwoquW.jpg",
+"overview": "Em Greenwich Village, Nova York, L.B. Jeffries, um fotógrafo profissional, está de molho em seu apartamento por ter quebrado a perna enquanto trabalhava. Como não tem muito o que fazer, fica bisbilhotando a vida dos seus vizinhos com um binóculo. Porém vê algumas coisas que o fazem suspeitar que um assassinato foi cometido.",
+"era": "XX",
+"platforms": [
+"Belas Artes à La Carte",
+"Oldflix"
+],
+"streamingCheckedAt": "2026-08-01",
+"ranks": {
+"SIS": 38
+},
+"nLists": 1,
+"avgRank": 38.0,
+"points": 63
+},
+{
+"id": "27432",
+"imdb_id": "tt0076263",
+"titleOrig": "Killer of Sheep",
+"titlePt": "O Matador de Ovelhas",
+"year": 1978,
+"country": "EUA",
+"director": "Charles Burnett",
+"duration": 80,
+"genres": [
+"Drama"
+],
+"poster": "/qmg5MMqJbSbI662dBytIs2OA3Kd.jpg",
+"overview": "",
+"era": "XX",
+"platforms": [],
+"streamingCheckedAt": "2026-08-01",
+"ranks": {
+"SIS": 43
+},
+"nLists": 1,
+"avgRank": 43.0,
+"points": 58
+},
+{
+"id": "1398",
+"imdb_id": "tt0079944",
+"titleOrig": "Сталкер",
+"titlePt": "Stalker",
+"year": 1979,
+"country": "Rússia",
+"director": "Andrei Tarkovsky",
+"duration": 162,
+"genres": [
+"Ficção científica",
+"Drama"
+],
+"poster": "/ftyrhQS0Kedc55ev4IgBlKSF0ez.jpg",
+"overview": "Um misterioso acidente deixou um lugar inabitável. Para evitar a aproximação de curiosos o lugar foi isolado e é protegido por soldados o tempo todo, sendo conhecido como A Zona. Existe a promessa de que em algum lugar da Zona há um quarto onde o desejo de qualquer pessoa será realizado, mas o caminho até ele está cheio de armadilhas, e apenas os homens conhecidos como Stalkers são capazes de guiar outros homens até lá.",
+"era": "XX",
+"platforms": [],
+"streamingCheckedAt": "2026-08-01",
+"ranks": {
+"SIS": 44
+},
+"nLists": 1,
+"avgRank": 44.0,
+"points": 57
+},
+{
+"id": "17295",
+"imdb_id": "tt0058946",
+"titleOrig": "La battaglia di Algeri",
+"titlePt": "A Batalha de Argel",
+"year": 1966,
+"country": "Itália / Algeria",
+"director": "Gillo Pontecorvo",
+"duration": 121,
+"genres": [
+"Drama",
+"Guerra",
+"História"
+],
+"poster": "/egAZJTyIBDWeI9xlmx4sZwvZ2I.jpg",
+"overview": "Os eventos decisivos da guerra pela independência da Argélia, marco do processo de libertação das colônias européias na África. Entre 1954 e 1957 é mostrado o modo de agir dos dois lados do conflito, a Frente de Libertação Nacional e o exército francês. Enquanto que o exército usava técnicas de tortura e eliminava o maior número possível de rebeldes, a FLN desenvolvia técnicas não-convencionais de combate, baseadas na guerrilha e no terrorismo.",
+"era": "XX",
+"platforms": [],
+"streamingCheckedAt": "2026-08-01",
+"ranks": {
+"SIS": 47
+},
+"nLists": 1,
+"avgRank": 47.0,
+"points": 54
+},
+{
+"id": "80560",
+"imdb_id": "tt0067961",
+"titleOrig": "Wanda",
+"titlePt": "Wanda",
+"year": 1970,
+"country": "EUA",
+"director": "Barbara Loden",
+"duration": 103,
+"genres": [
+"Drama",
+"Crime"
+],
+"poster": "/izuJ7cUhcihFnTpfsdSnkMCHsRQ.jpg",
+"overview": "Retrato de uma jovem empobrecida e sem educação em uma cidade industrial da Pensilvânia que abandona marido e filhos com o mesmo grau de apatia que irá guiar o seu envolvimento com um ladrão de bancos.",
+"era": "XX",
+"platforms": [],
+"streamingCheckedAt": "2026-08-01",
+"ranks": {
+"SIS": 49
+},
+"nLists": 1,
+"avgRank": 49.0,
+"points": 52
+},
+{
+"id": "216",
+"imdb_id": "tt0071141",
+"titleOrig": "Angst essen Seele auf",
+"titlePt": "O Medo Devora a Alma",
+"year": 1974,
+"country": "Alemanha",
+"director": "Rainer Werner Fassbinder",
+"duration": 93,
+"genres": [
+"Romance",
+"Drama"
+],
+"poster": "/vyXRTXtL5nUvrXNIJCWg2zPNhVX.jpg",
+"overview": "Emmi, uma viúva de 60 anos entra em um bar de Munique para escapar da chuva.É convidada por Ali, um negro muçulmano e 20 anos mais novo que ela, para dançar.O que leva Emmi a convidar Ali para passar a noite em seu apartamento e depois os dois começam a namorar.Mas todos a sua volta questionam e desprezam o relacionamento de ambos.",
+"era": "XX",
+"platforms": [
+"Belas Artes à La Carte",
+"Looke"
+],
+"streamingCheckedAt": "2026-08-01",
+"ranks": {
+"SIS": 52
+},
+"nLists": 1,
+"avgRank": 52.0,
+"points": 49
+},
+{
+"id": "86814",
+"imdb_id": "tt0076452",
+"titleOrig": "News from Home",
+"titlePt": "Notícias de Casa",
+"year": 1977,
+"country": "Bélgica / França / Alemanha",
+"director": "Chantal Akerman",
+"duration": 89,
+"genres": [
+"Documentário"
+],
+"poster": "/lowDoA9PKepllK8nCU9uOwCOnNZ.jpg",
+"overview": "",
+"era": "XX",
+"platforms": [
+"Filmicca"
+],
+"streamingCheckedAt": "2026-08-01",
+"ranks": {
+"SIS": 53
+},
+"nLists": 1,
+"avgRank": 53.0,
+"points": 48
+},
+{
+"id": "284",
+"imdb_id": "tt0053604",
+"titleOrig": "The Apartment",
+"titlePt": "Se Meu Apartamento Falasse",
+"year": 1960,
+"country": "EUA",
+"director": "Billy Wilder",
+"duration": 125,
+"genres": [
+"Comédia",
+"Drama",
+"Romance"
+],
+"poster": "/omZs5505ceaHXhh4FL2TpmpVC94.jpg",
+"overview": "Um funcionário ambicioso descobre um atalho para subir na companhia em que trabalha: Ceder seu apartamento para os encontros amorosos de seus chefes. A tática inicialmente dá certo, mas passa a ser ameaçada quando ele se apaixona pela amante de um de seus chefes.",
+"era": "XX",
+"platforms": [
+"MUBI",
+"Prime Video"
+],
+"streamingCheckedAt": "2026-08-01",
+"ranks": {
+"SIS": 58
+},
+"nLists": 1,
+"avgRank": 58.0,
+"points": 43
+},
+{
+"id": "1563",
+"imdb_id": "tt0084628",
+"titleOrig": "Sans soleil",
+"titlePt": "Sem Sol",
+"year": 1983,
+"country": "França",
+"director": "Chris Marker",
+"duration": 99,
+"genres": [
+"Documentário"
+],
+"poster": "/7gZC2ardRuFBB6qyQDw7HaLa921.jpg",
+"overview": "Um livro de viagem experimental, Sem Sol retrata gravações de todo o mundo para levar o espectador a uma jornada filosófica sobre a natureza do tempo e da memória.",
+"era": "XX",
+"platforms": [
+"DocAlliance Films",
+"MUBI"
+],
+"streamingCheckedAt": "2026-08-01",
+"ranks": {
+"SIS": 59
+},
+"nLists": 1,
+"avgRank": 59.0,
+"points": 42
+},
+{
+"id": "68427",
+"imdb_id": "tt0104057",
+"titleOrig": "Daughters of the Dust",
+"titlePt": "Filhas do Pó",
+"year": 1991,
+"country": "EUA / Alemanha",
+"director": "Julie Dash",
+"duration": 112,
+"genres": [
+"Drama",
+"Romance"
+],
+"poster": "/sk5qednzLeDZMIhto6Oa9QFKOon.jpg",
+"overview": "Nana Peazant aguarda o nascimento da trineta que reincarnará um espírito ancestral para que dê continuidade a seu povo no local. Esta velha matriarca pagã também tenta dissuadir a família de imigrar para o Norte no encalço de um progresso ilusório.",
+"era": "XX",
+"platforms": [],
+"streamingCheckedAt": "2026-08-01",
+"ranks": {
+"SIS": 60
+},
+"nLists": 1,
+"avgRank": 60.0,
+"points": 41
+},
+{
+"id": "769",
+"imdb_id": "tt0099685",
+"titleOrig": "GoodFellas",
+"titlePt": "Os Bons Companheiros",
+"year": 1990,
+"country": "EUA",
+"director": "Martin Scorsese",
+"duration": 146,
+"genres": [
+"Drama",
+"Crime"
+],
+"poster": "/sTReXuaND1AjkXUfjl1gqRcuGfI.jpg",
+"overview": "A história real de Henry Hill, um garoto meio irlandês e meio siciliano do Brooklyn que é adotado por gangsters do bairro ainda jovem e sobe na hierarquia de uma família da máfia sob a orientação de Jimmy Conway.",
+"era": "XX",
+"platforms": [
+"HBO Max",
+"Prime Video"
+],
+"streamingCheckedAt": "2026-08-01",
+"ranks": {
+"SIS": 64
+},
+"nLists": 1,
+"avgRank": 64.0,
+"points": 37
+},
+{
+"id": "77771",
+"imdb_id": "tt0070820",
+"titleOrig": "Touki-Bouki",
+"titlePt": "A Viagem da Hiena",
+"year": 1973,
+"country": "Senegal",
+"director": "Djibril Diop Mambéty",
+"duration": 91,
+"genres": [
+"Drama",
+"Romance"
+],
+"poster": "/9ff7yFqyx64F0ZAh1BCGPi3Woua.jpg",
+"overview": "",
+"era": "XX",
+"platforms": [
+"MUBI"
+],
+"streamingCheckedAt": "2026-08-01",
+"ranks": {
+"SIS": 66
+},
+"nLists": 1,
+"avgRank": 66.0,
+"points": 35
+},
+{
+"id": "895",
+"imdb_id": "tt0060107",
+"titleOrig": "Андрей Рублёв",
+"titlePt": "Andrei Rublev",
+"year": 1966,
+"country": "Rússia",
+"director": "Andrei Tarkovsky",
+"duration": 215,
+"genres": [
+"Drama",
+"História"
+],
+"poster": "/utRPwzC1pA0Zm1uOymeK95JVbua.jpg",
+"overview": "Um filme sobre os diversos episódios da vida do pintor de ícones Andrei Rublev (1360-1430), um dos maiores artistas russos da Idade Média, mas também um retrato da difícil vida do povo russo neste século. Entre os conflitos apresentados estão a rigidez da Igreja Ortodoxa Russa e o seu lugar na cultura russa, bem como a pobreza e as invasões tártaras. Após quatro anos de produção a exibição do filme seria proibida logo após seu lançamento, levando-o a ser exibido apenas em festivais de cinema estrangeiros.",
+"era": "XX",
+"platforms": [
+"Looke"
+],
+"streamingCheckedAt": "2026-08-01",
+"ranks": {
+"SIS": 67
+},
+"nLists": 1,
+"avgRank": 67.0,
+"points": 34
+},
+{
+"id": "2748",
+"imdb_id": "tt0046511",
+"titleOrig": "Viaggio in Italia",
+"titlePt": "Viagem à Itália",
+"year": 1954,
+"country": "Itália / França",
+"director": "Roberto Rossellini",
+"duration": 85,
+"genres": [
+"Drama",
+"Romance"
+],
+"poster": "/jAmndZT4kcG4ieYDpVwMWslxsld.jpg",
+"overview": "Catherine e Alexander, ricos e sofisticados, vão a Nápoles para vender uma villa do falecido tio. Há uma frieza no relacionamento e aspectos de Nápoles se adicionam à tensão. Ela se lembra de um poeta que amava e morreu na guerra; embora ela não o amasse, a memória ressalta a ausência de romance em sua vida de agora. Ela percorre os museus de Nápoles e Pompeia, imergindo-se no fascínio napolitano pelos mortos e percebe quantas mulheres estão grávidas; ele fica inativo em Capri, flertando com as mulheres, mas recuando do adultério. Com ela, ele é sarcástico; com ele, ela é crítica. Eles falam de divórcio. Será que este casal de estrangeiros encontrarão uma solução e direção na Itália?",
+"era": "XX",
+"platforms": [
+"Belas Artes à La Carte"
+],
+"streamingCheckedAt": "2026-08-01",
+"ranks": {
+"SIS": 72
+},
+"nLists": 1,
+"avgRank": 72.0,
+"points": 29
+},
+{
+"id": "5165",
+"imdb_id": "tt0053619",
+"titleOrig": "L'avventura",
+"titlePt": "A Aventura",
+"year": 1960,
+"country": "França / Itália",
+"director": "Michelangelo Antonioni",
+"duration": 143,
+"genres": [
+"Drama",
+"Mistério",
+"Romance"
+],
+"poster": "/mfPxVDCjEXh4APqfFwWMP5UXYDk.jpg",
+"overview": "Uma mulher desaparece no meio de uma viagem de barco no Mediterrâneo. Durante a busca pela mulher, seu namorado e sua melhor amiga ficam atraídos um pelo outro.  Um grupo de ricos italianos saem numa viagem de iate para uma ilha vulcânica deserta no Mediterrâneo. Quando eles estão prestes a deixar a ilha eles se dão conta de que Anna, o personagem principal até este ponto, desapareceu. Sandro, o namorado de Anna, e Claudia, a amiga de Anna, tentam sem sucesso encontrá-la. Enquanto procuravam a amiga desaparecido, Claudia e Sandro desenvolvem uma atração entre eles. Quando voltam à terra continuam a busca sem sucesso. Sandro e Claudia se tornam amantes, e quase esquecem a Anna desaparecida. (e 16 - Estimado 16 Anos)",
+"era": "XX",
+"platforms": [
+"Looke"
+],
+"streamingCheckedAt": "2026-08-01",
+"ranks": {
+"SIS": 73
+},
+"nLists": 1,
+"avgRank": 73.0,
+"points": 28
+},
+{
+"id": "8392",
+"imdb_id": "tt0096283",
+"titleOrig": "となりのトトロ",
+"titlePt": "Meu Amigo Totoro",
+"year": 1988,
+"country": "Japão",
+"director": "Hayao Miyazaki",
+"duration": 87,
+"genres": [
+"Fantasia",
+"Animação",
+"Família"
+],
+"poster": "/23KKTxDg6rxZVc66bloQQdPSr29.jpg",
+"overview": "Duas irmãs se mudam para o campo com o pai para ficarem mais próximas da mãe hospitalizada e descobrem que as árvores ao redor são habitadas por Totoros, espíritos mágicos da floresta. Quando a mais nova foge de casa, a irmã mais velha busca a ajuda dos espíritos para encontrá-la.",
+"era": "XX",
+"platforms": [
+"Netflix"
+],
+"streamingCheckedAt": "2026-08-01",
+"ranks": {
+"SIS": 74
+},
+"nLists": 1,
+"avgRank": 74.0,
+"points": 27
+},
+{
+"id": "34148",
+"imdb_id": "tt0052918",
+"titleOrig": "Imitation of Life",
+"titlePt": "Imitação da Vida",
+"year": 1959,
+"country": "EUA",
+"director": "Douglas Sirk",
+"duration": 125,
+"genres": [
+"Drama",
+"Romance"
+],
+"poster": "/10tqF21DUCISh8UvBODl0gDrk1h.jpg",
+"overview": "O ano é 1947 e Lora Meredith (Lana Turner) é uma aspirante a atriz, viúva, que mora com sua sua única filha, Susie (Sandra Dee), e vive ignorando-a, enquanto busca construir uma carreira. Quando ela conhece Annie Johnson (Juanita Moore), uma afrodescendente também viúva e mãe solteira, convida-a a trabalhar na sua casa e criar as filhas das duas juntas. No momento em que Annie e sua filha Sarah Jane (Susan Kohner) se mudam para a casa de Lora, a menina passa a renegar as suas origens: por ter a pele bem mais clara que sua mãe, ela se declara branca para todos. Já Susie se sente rejeitada pela mãe e acaba encontrando conforto nos braços de um homem mais velho (John Gavin).",
+"era": "XX",
+"platforms": [
+"Looke"
+],
+"streamingCheckedAt": "2026-08-01",
+"ranks": {
+"SIS": 75
+},
+"nLists": 1,
+"avgRank": 75.0,
+"points": 26
+},
+{
+"id": "20532",
+"imdb_id": "tt0047445",
+"titleOrig": "山椒大夫",
+"titlePt": "Intendente Sansho",
+"year": 1954,
+"country": "Japão",
+"director": "Kenji Mizoguchi",
+"duration": 124,
+"genres": [
+"Drama"
+],
+"poster": "/yzoLZ3lXCp2UAwZJ3Cr58sbyb6K.jpg",
+"overview": "Japão, século XI. A família de Taira é separada pelas lideranças feudais. Seus dois filhos, Zushiô e Anju, são enviados para um campo de trabalho escravo comandado pelo temido Sanshô, enquanto sua esposa, Tamaki, é forçada a prostituir-se em uma região isolada.",
+"era": "XX",
+"platforms": [
+"Belas Artes à La Carte"
+],
+"streamingCheckedAt": "2026-08-01",
+"ranks": {
+"SIS": 76
+},
+"nLists": 1,
+"avgRank": 76.0,
+"points": 25
+},
+{
+"id": "15804",
+"imdb_id": "tt0101985",
+"titleOrig": "牯嶺街少年殺人事件",
+"titlePt": "Um Dia Quente de Verão",
+"year": 1991,
+"country": "Taiwan",
+"director": "Edward Yang",
+"duration": 237,
+"genres": [
+"Crime",
+"Drama",
+"Romance"
+],
+"poster": "/pTA6qhQiutlMED6vLlLaYHphpWa.jpg",
+"overview": "Baseado em uma história verídica sobre um conflito entre duas gangues de jovens, a namorada de um garoto de 14 anos entra em conflito com o chefe de uma gangue por uma razão pouco clara, até que finalmente o conflito atinge um clímax violento.",
+"era": "XX",
+"platforms": [],
+"streamingCheckedAt": "2026-08-01",
+"ranks": {
+"SIS": 78
+},
+"nLists": 1,
+"avgRank": 78.0,
+"points": 23
+},
+{
+"id": "28162",
+"imdb_id": "tt0038733",
+"titleOrig": "A Matter of Life and Death",
+"titlePt": "Neste Mundo e no Outro",
+"year": 1946,
+"country": "Reino Unido",
+"director": "Emeric Pressburger",
+"duration": 104,
+"genres": [
+"Romance",
+"Fantasia",
+"Drama",
+"Comédia"
+],
+"poster": "/Uo0rtV42QWIjkAkUOALUNT3tZh.jpg",
+"overview": "Um aviador britânico que escapa da morte durante a guerra precisa lutar por sua vida perante um tribunal celestial, na esperança de prolongar seu romance incipiente com uma jovem americana.",
+"era": "XX",
+"platforms": [
+"Artiflix",
+"Belas Artes à La Carte"
+],
+"streamingCheckedAt": "2026-08-01",
+"ranks": {
+"SIS": 79
+},
+"nLists": 1,
+"avgRank": 79.0,
+"points": 22
+},
+{
+"id": "97035",
+"imdb_id": "tt0096337",
+"titleOrig": "Une histoire de vent",
+"titlePt": "Uma História do Vento",
+"year": 1989,
+"country": "Alemanha / França / Holanda / Reino Unido",
+"director": "Joris Ivens",
+"duration": 77,
+"genres": [
+"Documentário"
+],
+"poster": "/7239j9sBDsKF35gaUZURkFeXjVd.jpg",
+"overview": "Tendo sido asmático durante toda a vida, Joris Ivens começa o filme com pensamentos sobre a respiração que sustenta a sua e todas as outras vidas e que se manifesta no mundo como o vento.",
+"era": "XX",
+"platforms": [],
+"streamingCheckedAt": "2026-08-01",
+"ranks": {
+"SIS": 81
+},
+"nLists": 1,
+"avgRank": 81.0,
+"points": 20
+},
+{
+"id": "31414",
+"imdb_id": "tt0111341",
+"titleOrig": "Sátántangó",
+"titlePt": "O Tango de Satã",
+"year": 1994,
+"country": "Alemanha / Hungria / Suíça",
+"director": "Béla Tarr",
+"duration": 450,
+"genres": [
+"Drama"
+],
+"poster": "/tETTt4yKY4NQOveWTSIoNV34AXK.jpg",
+"overview": "Habitantes de uma pequena aldeia na Hungria lidam com os efeitos da queda do comunismo. A fonte de receita da cidade, uma fábrica, fechou, e os moradores, que incluem um médico e três casais, aguardam um pagamento em dinheiro oferecido na esteira do fechamento. Irimias, um morador considerado morto, retorna e, sem o conhecimento dos moradores locais, é um informante da polícia. Armando um golpe, ele convence os aldeões a formar uma comuna com ele.",
+"era": "XX",
+"platforms": [],
+"streamingCheckedAt": "2026-08-01",
+"ranks": {
+"SIS": 84
+},
+"nLists": 1,
+"avgRank": 84.0,
+"points": 17
+},
+{
+"id": "4495",
+"imdb_id": "tt0070040",
+"titleOrig": "El espíritu de la colmena",
+"titlePt": "O Espírito da Colméia",
+"year": 1973,
+"country": "Espanha",
+"director": "Víctor Erice",
+"duration": 98,
+"genres": [
+"Drama",
+"Fantasia"
+],
+"poster": "/sdTbojt6ztECjorBhus0xQn9R5S.jpg",
+"overview": "As duas pequenas irmãs Ana e Isabel moram em terras rurais da Espanha, na década de 40. Elas estão determinadas a encontrar a estranha figura de \"Frankenstein\" que passará pela região.",
+"era": "XX",
+"platforms": [
+"Filmicca",
+"Oldflix"
+],
+"streamingCheckedAt": "2026-08-01",
+"ranks": {
+"SIS": 87
+},
+"nLists": 1,
+"avgRank": 87.0,
+"points": 14
+},
+{
+"id": "11104",
+"imdb_id": "tt0109424",
+"titleOrig": "重慶森林",
+"titlePt": "Amores Expressos",
+"year": 1994,
+"country": "Hong Kong",
+"director": "Wong Kar-Wai",
+"duration": 103,
+"genres": [
+"Drama",
+"Comédia",
+"Romance"
+],
+"poster": "/49MJKMuSSeTx8yBa8NU7afQvwlx.jpg",
+"overview": "Em Hong Kong, dois policiais se apaixonam por duas mulheres muito diferentes: um por uma mulher sedutora e criminosa, o outro, por uma garçonete peculiar.",
+"era": "XX",
+"platforms": [
+"MUBI"
+],
+"streamingCheckedAt": "2026-08-01",
+"ranks": {
+"SIS": 88
+},
+"nLists": 1,
+"avgRank": 88.0,
+"points": 13
+},
+{
+"id": "694",
+"imdb_id": "tt0081505",
+"titleOrig": "The Shining",
+"titlePt": "O Iluminado",
+"year": 1980,
+"country": "Reino Unido / EUA",
+"director": "Stanley Kubrick",
+"duration": 146,
+"genres": [
+"Terror",
+"Thriller"
+],
+"poster": "/47BdQqDWnj3VIzpH9bd2agho2PN.jpg",
+"overview": "Durante o inverno, um homem é contratado para ficar como vigia em um hotel no Colorado e vai para lá com a esposa e seu filho. Porém, o contínuo isolamento começa a lhe causar problemas mentais sérios e ele vai se tornado cada vez mais agressivo e perigoso, ao mesmo tempo que seu filho passa a ter visões de acontecimentos ocorridos no passado, que também foram causados pelo isolamento excessivo.",
+"era": "XX",
+"platforms": [
+"Claro tv+",
+"HBO Max",
+"Telecine",
+"Universal+"
+],
+"streamingCheckedAt": "2026-08-01",
+"ranks": {
+"SIS": 89
+},
+"nLists": 1,
+"avgRank": 89.0,
+"points": 12
+},
+{
+"id": "1309516",
+"imdb_id": "",
+"titleOrig": "More Animated Worker and Parasite",
+"titlePt": "More Animated Worker and Parasite",
+"year": null,
+"country": "",
+"director": "Suzanne Dargie",
+"duration": 2,
+"genres": [
+"Animação"
+],
+"poster": "",
+"overview": "",
+"era": "XXI",
+"platforms": [],
+"streamingCheckedAt": "2026-08-01",
+"ranks": {
+"SIS": 91
+},
+"nLists": 1,
+"avgRank": 91.0,
+"points": 10
+},
+{
+"id": "1040",
+"imdb_id": "tt0057091",
+"titleOrig": "Il gattopardo",
+"titlePt": "O Leopardo",
+"year": 1963,
+"country": "França / Itália",
+"director": "Luchino Visconti",
+"duration": 186,
+"genres": [
+"Drama"
+],
+"poster": "/a3zvKpjkI1sInsjCdVx7yZ5iZFE.jpg",
+"overview": "Durante o conturbado processo de unificação italiana na Sicília, o príncipe Don Fabrizio passa a simpatizar com os ideais socialistas, mas não gosta da ideia de perder seu prestígio e privilégios.",
+"era": "XX",
+"platforms": [
+"Looke"
+],
+"streamingCheckedAt": "2026-08-01",
+"ranks": {
+"SIS": 92
+},
+"nLists": 1,
+"avgRank": 92.0,
+"points": 9
+},
+{
+"id": "256088",
+"imdb_id": "tt0197208",
+"titleOrig": "心猿意馬",
+"titlePt": "心猿意馬",
+"year": 1999,
+"country": "Hong Kong",
+"director": "Julian Lee",
+"duration": 98,
+"genres": [
+"Romance",
+"Drama"
+],
+"poster": "/z2mzWmrRpd2EQfzEnuG32c9On6L.jpg",
+"overview": "",
+"era": "XX",
+"platforms": [],
+"streamingCheckedAt": "2026-08-01",
+"ranks": {
+"SIS": 94
+},
+"nLists": 1,
+"avgRank": 94.0,
+"points": 7
+},
+{
+"id": "95597",
+"imdb_id": "tt0060758",
+"titleOrig": "La Noire de...",
+"titlePt": "Garota Negra",
+"year": 1966,
+"country": "França / Senegal",
+"director": "Ousmane Sembène",
+"duration": 59,
+"genres": [
+"Drama"
+],
+"poster": "/bPaqps7bavOsRe41a4YIhs6fcd2.jpg",
+"overview": "Uma senegalesa sonha com uma vida melhor no exterior. Ela aceita um emprego como governanta de uma família francesa, mas seus deveres são reduzidos aos de uma empregada após a família se mudar para o sul da França. No novo país, ela é consciente de sua raça ao ser maltratada por seus empregadores.",
+"era": "XX",
+"platforms": [
+"MUBI",
+"Telecine"
+],
+"streamingCheckedAt": "2026-08-01",
+"ranks": {
+"SIS": 96
+},
+"nLists": 1,
+"avgRank": 96.0,
+"points": 5
+},
+{
+"id": "335",
+"imdb_id": "tt0064116",
+"titleOrig": "C'era una volta il West",
+"titlePt": "Era uma Vez no Oeste",
+"year": 1968,
+"country": "Itália / EUA",
+"director": "Sergio Leone",
+"duration": 166,
+"genres": [
+"Drama",
+"Faroeste"
+],
+"poster": "/sBcaRQEZInpiQNSKKW5wjcEtXUS.jpg",
+"overview": "Enquanto os construtores ferroviários marcham imparavelmente através do deserto de Arizona a caminho do mar, Jill chega à pequena cidade de Flagstone com a intenção de começar uma nova vida.",
+"era": "XX",
+"platforms": [
+"Looke",
+"Netflix"
+],
+"streamingCheckedAt": "2026-08-01",
+"ranks": {
+"SIS": 98
+},
+"nLists": 1,
+"avgRank": 98.0,
+"points": 3
 }
 ]
 };

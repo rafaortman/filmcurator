@@ -121,6 +121,7 @@ def parse_list(fp):
 OVERRIDE = {
     "the bicycle thief": 5156,   # Ladri di biciclette (De Sica, 1948)
     "breathless": 269,           # À bout de souffle (Godard, 1960)
+    "8½": 422,                    # Oito e Meio (Fellini, 1963) — busca casava "BUtterfield 8"
 }
 
 def _deaccent(s):

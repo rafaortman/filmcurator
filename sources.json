@@ -43,5 +43,14 @@
     "scope": "Poll com ~50 críticos de cinema",
     "era": "XX",
     "color": "#d9a441"
+  },
+  "SIS": {
+    "label": "Sight & Sound",
+    "full": "The Greatest Films of All Time",
+    "year": 2022,
+    "url": "",
+    "scope": "Poll decenal do BFI com ~1600 críticos (all-time, não só séc. XX)",
+    "era": "ALL",
+    "color": "#cf6a9c"
   }
 }
