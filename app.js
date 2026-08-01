@@ -123,7 +123,9 @@ function card(m){
   const syn = m.overview
     ? `<div class="csyn"><p class="synopsis">${esc(m.overview)}</p></div>`
     : '';
-  return `<article class="card">
+  // Clique no card → busca no Google ("onde assistir", que já embute JustWatch + YouTube)
+  const q = `${m.titlePt || m.titleOrig} ${m.year ?? ''} assistir online`.trim();
+  return `<article class="card" data-q="${esc(q)}">
     <div class="rankbar"></div>
     ${poster}
     <div class="cbody">
@@ -152,6 +154,14 @@ function render(){
 }
 
 // ---- Events ----
+// Clique no card abre a busca do Google numa nova aba (a menos que esteja selecionando texto)
+grid.addEventListener('click', e => {
+  if (String(window.getSelection())) return;      // usuário está selecionando a sinopse
+  const cardEl = e.target.closest('.card'); if (!cardEl) return;
+  const q = cardEl.dataset.q; if (!q) return;
+  window.open('https://www.google.com/search?q=' + encodeURIComponent(q), '_blank', 'noopener');
+});
+
 $('q').addEventListener('input', e => { state.q = e.target.value.trim(); render(); });
 
 $('listChips').addEventListener('click', e => {
@@ -206,3 +216,12 @@ function syncListChips(){
 
 syncListChips();
 render();
+
+// ---- Footer: data de atualização = checagem de streaming mais recente ----
+(() => {
+  const el = $('updated'); if (!el) return;
+  const dates = M.map(m => m.streamingCheckedAt).filter(Boolean).sort();
+  if (!dates.length) return;
+  const [y, mo, d] = dates[dates.length - 1].split('-');
+  el.textContent = `Streamings atualizados em ${d}/${mo}/${y}`;
+})();
