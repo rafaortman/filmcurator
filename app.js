@@ -102,13 +102,8 @@ function sortFn(a, b){
 function badge(m){
   const keys = Object.keys(m.ranks);
   const label = k => (SRC[k] && SRC[k].label) || k;   // grafia única (Guardian/Times), single ou multi
-  if (keys.length >= 2){
-    const txt = keys.map(k => `${label(k)} #${m.ranks[k]}`).join(' · ');
-    return `<span class="b both">${txt}</span>`;
-  }
-  const k = keys[0];
-  const cls = { GUA:'gua', NYT:'nyt', BBC:'bbc' }[k] || 'nyt';
-  return `<span class="b ${cls}">${label(k)} #${m.ranks[k]}</span>`;
+  const txt = keys.map(k => `${label(k)} #${m.ranks[k]}`).join(' · ');
+  return `<span class="b both">${txt}</span>`;
 }
 
 function card(m){
@@ -130,7 +125,6 @@ function card(m){
   // Clique no card → busca no Google ("onde assistir", que já embute JustWatch + YouTube)
   const q = `${m.titlePt || m.titleOrig} ${m.year ?? ''} assistir online`.trim();
   return `<article class="card" data-q="${esc(q)}">
-    <div class="rankbar"></div>
     ${poster}
     <div class="cbody">
       <div class="ct">${primary}</div>
