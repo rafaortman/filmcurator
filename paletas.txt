@@ -1,0 +1,72 @@
+========================================================================
+PALETAS — COPIA E COLA
+========================================================================
+Cada bloco abaixo substitui as 5 linhas de cor do :root em index.html
+(hoje linhas 13–17). É só colar por cima destas:
+
+    --bg: #0e0f13;
+    --txt: #e8eaf0;
+    --muted: #9aa0b0;
+    --accent: #f5c518;
+    --accent-2: #6ea8fe;
+
+O que cada uma faz:
+  --bg       fundo
+  --txt      texto principal
+  --muted    texto secundário (sinopse, labels, rodapé)
+  --accent   destaque quente (selo "★ N pts", botões, thumb do slider)
+  --accent-2 links, tags de gênero, foco de campo, trilho do slider
+(--shade é derivada de --bg automaticamente, não precisa mexer.)
+
+Regra do mapeamento: --bg = cor mais escura, --txt = mais clara.
+Onde a paleta não tem cor boa pro papel, deixei um aviso "⚠".
+------------------------------------------------------------------------
+
+
+/* ---- P1 — plum & rosé — #bfb5af,#ece2d0,#d5b9b2,#a26769,#582c4d ---- */
+/* Creme sobre ameixa. Clima suave/vintage; acentos discretos (pouco pop). */
+    --bg: #582c4d;
+    --txt: #ece2d0;
+    --muted: #bfb5af;
+    --accent: #a26769;
+    --accent-2: #d5b9b2;
+
+
+/* ---- P2 — cinema quente — #ffecc1,#ffc755,#de8855,#a85c44,#38282c ---- */
+/* Marrom escuro + dourado/laranja. Ótimo pra tema "cinema"; acento forte. */
+    --bg: #38282c;
+    --txt: #ffecc1;
+    --muted: #de8855;
+    --accent: #ffc755;
+    --accent-2: #a85c44;
+
+
+/* ---- P3 — dark & musgo — #1f0318,#e5f2c9,#7f534b,#8c705f,#1e1a1d ---- */
+/* Fundo quase preto, texto verde-creme. Só tem 1 cor clara. */
+/* ⚠ --accent-2 (#1f0318) é quase invisível no fundo: links vão sumir.   */
+/*   Se ficar ruim, troque --accent-2 por #8c705f (taupe) ou #e5f2c9.     */
+    --bg: #1e1a1d;
+    --txt: #e5f2c9;
+    --muted: #8c705f;
+    --accent: #7f534b;
+    --accent-2: #1f0318;
+
+
+/* ---- P4 — dourado & teal — #CACAAA,#EEC584,#C8AB83,#55868C,#392D32 ---- */
+/* A mais equilibrada: fundo ameixa, texto oliva, dourado + teal nos links. */
+    --bg: #392D32;
+    --txt: #CACAAA;
+    --muted: #C8AB83;
+    --accent: #EEC584;
+    --accent-2: #55868C;
+
+
+/* ---- P5 — bold/quente — #140003,#720026,#ce4257,#ff7f51,#ff9b54 ---- */
+/* Preto + vermelhos/laranjas. Visual ousado. Não há neutro: texto fica alaranjado. */
+/* ⚠ --accent-2 (#720026) é bem escuro no fundo preto: links de baixo contraste. */
+/*   Alternativa: --accent-2 #ff7f51 e --muted #720026 (mas aí muted some).       */
+    --bg: #140003;
+    --txt: #ff9b54;
+    --muted: #ff7f51;
+    --accent: #ce4257;
+    --accent-2: #720026;

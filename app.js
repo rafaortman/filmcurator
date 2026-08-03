@@ -26,7 +26,16 @@ const state = {
   yearMax: 9999,
   onlyStream: false,
   sort: 'score',
+  favView: false,   // true = mostrar só os favoritados (coração global ligado)
 };
+
+// ---- Favoritos (localStorage) ----
+const FAV_KEY = 'filmcurator:favs';
+const favs = (() => {
+  try { return new Set(JSON.parse(localStorage.getItem(FAV_KEY)) || []); }
+  catch { return new Set(); }
+})();
+const saveFavs = () => localStorage.setItem(FAV_KEY, JSON.stringify([...favs]));
 
 // Limites de ano a partir dos dados (se ajusta sozinho quando entrar o séc. XX)
 const YEARS = M.map(m => m.year).filter(y => y != null);
@@ -106,7 +115,11 @@ function badge(m){
   return `<span class="b both">${txt}</span>`;
 }
 
+const HEART_SVG = '<svg viewBox="0 -960 960 960" aria-hidden="true"><path d="M480-120l-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-159t157-65q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 65t63 159q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Z"/></svg>';
+
 function card(m){
+  const isFav = favs.has(m.id);
+  const fav = `<button class="cardfav${isFav ? ' on' : ''}" data-id="${m.id}" type="button" aria-pressed="${isFav}" aria-label="${isFav ? 'Desfavoritar' : 'Favoritar'}">${HEART_SVG}</button>`;
   const plats = m.platforms.length
     ? m.platforms.map(p => `<span class="plat">${p}</span>`).join('')
     : `<span class="plat none">sem streaming BR</span>`;
@@ -125,6 +138,7 @@ function card(m){
   // Clique no card → busca no Google ("onde assistir", que já embute JustWatch + YouTube)
   const q = `${m.titlePt || m.titleOrig} ${m.year ?? ''} assistir online`.trim();
   return `<article class="card" data-q="${esc(q)}">
+    ${fav}
     ${poster}
     <div class="cbody">
       <div class="ct">${primary}</div>
@@ -144,16 +158,37 @@ function card(m){
 }
 
 function render(){
-  const list = M.filter(matches).sort(sortFn);
+  // Modo favoritos: ignora os filtros da barra, mostra só os favoritados (respeita o sort).
+  const list = (state.favView ? M.filter(m => favs.has(m.id)) : M.filter(matches)).sort(sortFn);
   $('n').textContent = list.length;
   grid.innerHTML = list.length
     ? list.map(card).join('')
-    : `<div class="empty">Nenhum filme com esses filtros.</div>`;
+    : `<div class="empty">${state.favView ? 'Nenhum favorito ainda.' : 'Nenhum filme com esses filtros.'}</div>`;
+}
+
+// Reflete o estado dos favoritos no coração global do header.
+function updateFavView(){
+  const btn = $('favView');
+  const has = favs.size > 0;
+  btn.disabled = !has;
+  if (!has) state.favView = false;   // sem favoritos, sai do modo e desativa
+  btn.setAttribute('aria-pressed', String(state.favView));
+  btn.title = state.favView ? 'Ver todos' : 'Ver favoritos';
+  btn.setAttribute('aria-label', btn.title);
+}
+
+function toggleFav(id){
+  if (favs.has(id)) favs.delete(id); else favs.add(id);
+  saveFavs();
+  updateFavView();
+  render();
 }
 
 // ---- Events ----
 // Clique no card abre a busca do Google numa nova aba (a menos que esteja selecionando texto)
 grid.addEventListener('click', e => {
+  const favBtn = e.target.closest('.cardfav');    // coração: favoritar sem abrir o Google
+  if (favBtn){ toggleFav(favBtn.dataset.id); return; }
   if (String(window.getSelection())) return;      // usuário está selecionando a sinopse
   const cardEl = e.target.closest('.card'); if (!cardEl) return;
   const q = cardEl.dataset.q; if (!q) return;
@@ -195,6 +230,14 @@ $('yearMax').addEventListener('input', e => {
 
 $('sort').addEventListener('change', e => { state.sort = e.target.value; render(); });
 
+// Coração global: alterna o modo "só favoritos" (desativado enquanto não há favoritos).
+$('favView').addEventListener('click', () => {
+  if (favs.size === 0) return;
+  state.favView = !state.favView;
+  updateFavView();
+  render();
+});
+
 $('reset').addEventListener('click', () => {
   Object.assign(state, { q:'', platform:'', country:'', director:'', genre:'', maxDur:321,
     yearMin:YMIN, yearMax:YMAX, onlyStream:false, sort:'score' });
@@ -213,6 +256,7 @@ function syncListChips(){
 }
 
 syncListChips();
+updateFavView();
 render();
 
 // ---- Colapsar filtros (default fechado; no desktop o CSS mantém aberto) ----
@@ -276,6 +320,8 @@ $('shuffleAgain').addEventListener('click', () => {
 
 // Cliques no resultado: "Limpar critérios" · card (busca no Google).
 shuffleResult.addEventListener('click', e => {
+  const favBtn = e.target.closest('.cardfav');
+  if (favBtn){ toggleFav(favBtn.dataset.id); renderResult(); return; }
   if (e.target.closest('#clearReroll')){
     selGenre.value = ''; selPlat.value = '';
     currentDraw = pickRandom(basePool());

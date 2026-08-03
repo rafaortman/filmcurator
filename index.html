@@ -2,12 +2,42 @@
 <html lang="pt-BR">
 
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EDEMJY802C"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-EDEMJY802C');
+  </script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>FilmCurator — Os melhores filmes das principais listas de críticos</title>
+  <meta name="description" content="Escolher um filme não devia ser tão difícil. A curadoria da crítica, reunida e ranqueada. Filtre pelo seu interesse ou simplesmente sorteie um filme.">
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <!-- Open Graph (Facebook, LinkedIn, WhatsApp) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="FilmCurator">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:url" content="https://rafaortman.github.io/filmcurator/">
+  <meta property="og:title" content="FilmCurator — Escolher um filme não devia ser tão difícil.">
+  <meta property="og:description" content="A curadoria da crítica, reunida e ranqueada. Filtre pelo seu interesse ou simplesmente sorteie um filme.">
+  <meta property="og:image" content="https://rafaortman.github.io/filmcurator/shareimg.jpg">
+  <meta property="og:image:width" content="1201">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="FilmCurator — a curadoria da crítica, reunida e ranqueada.">
+
+  <!-- Twitter/X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="FilmCurator — Escolher um filme não devia ser tão difícil.">
+  <meta name="twitter:description" content="A curadoria da crítica, reunida e ranqueada. Filtre pelo seu interesse ou simplesmente sorteie um filme.">
+  <meta name="twitter:image" content="https://rafaortman.github.io/filmcurator/shareimg.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,100..900,0..100,0..1;1,9..144,100..900,0..100,0..1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,100..900,0..100,0..1;1,9..144,100..900,0..100,0..1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap">
   <style>
     :root {
       --bg: #0e0f13;
@@ -15,7 +45,9 @@
       --muted: #9aa0b0;
       --accent: #f5c518;
       --accent-2: #6ea8fe;
-      --shade: color-mix(in srgb, var(--bg) 95%, #fff);
+
+      --shade: color-mix(in srgb, var(--bg) 90%, #fff);
+
       --radius: 12px;
     }
 
@@ -44,7 +76,51 @@
     header {
       padding: 22px 20px 10px;
       max-width: 1200px;
-      margin: 0 auto
+      margin: 0 auto;
+      position: relative;
+    }
+
+    /* Coração global: ver só favoritos. Desativado sem favoritos;
+       borda --accent quando há favoritos; preenchido --accent quando selecionado. */
+    .favview {
+      position: absolute;
+      top: 15px;
+      right: 10px;
+      flex: none;
+      border: none;
+      background: none;
+      padding: 8px;
+      width: 40px;
+      height: 40px;
+      line-height: 0;
+      cursor: pointer;
+
+      & svg {
+        width: 100%;
+        height: 100%;
+        display: block
+      }
+
+      & svg path {
+        fill: none;
+        stroke: var(--accent);
+        stroke-width: 64
+      }
+
+      &[aria-pressed="true"] svg path {
+        fill: var(--accent);
+        stroke: none
+      }
+
+      &:disabled {
+        cursor: default;
+
+        & svg path {
+          fill: none;
+          stroke: var(--muted);
+          opacity: .4
+        }
+      }
     }
 
     h1 {
@@ -65,9 +141,14 @@
     }
 
     .sub {
-      color: var(--muted);
+      color: white;
       font-size: 13px;
       margin-top: 4px;
+
+      small {
+        color: var(--muted);
+        display: block;
+      }
 
       & a {
         color: inherit;
@@ -75,7 +156,7 @@
         text-underline-offset: 2px;
 
         &:hover {
-          color: var(--accent-2)
+          color: var(--accent)
         }
       }
     }
@@ -143,6 +224,7 @@
       position: fixed;
       bottom: 0;
       width: 100%;
+      border-top: 1px solid var(--bg);
       background: var(--shade);
       padding: 6px 14px;
       font-size: 11.5px;
@@ -152,6 +234,20 @@
       justify-content: space-between;
       align-items: center;
       gap: 10px;
+      z-index: 100;
+
+      /* Esfumaçado acima do rodapé: --bg sólido (junto ao rodapé) → transparente (topo).
+         left/right negativos compensam o padding p/ cobrir a largura toda. */
+      &::before {
+        content: "";
+        position: absolute;
+        left: -14px;
+        right: -14px;
+        bottom: 100%;
+        height: 28px;
+        background: linear-gradient(to top, var(--bg), transparent);
+        pointer-events: none
+      }
 
       & a {
         color: var(--muted);
@@ -167,6 +263,7 @@
       }
 
       @media (max-width: 1000px) {
+        position: static;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -223,7 +320,8 @@
       gap: 8px;
 
       & input {
-        flex: 1
+        flex: 1;
+        accent-color: var(--accent-2)
       }
     }
 
@@ -385,6 +483,43 @@
       }
     }
 
+    /* Coração de cada card: vazado (muted) por padrão, --accent preenchido quando favoritado. */
+    .cardfav {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      z-index: 2;
+      width: 34px;
+      height: 34px;
+      padding: 6px;
+      border: none;
+      border-radius: 50%;
+      background: transparent;
+      line-height: 0;
+      cursor: pointer;
+
+      & svg {
+        width: 100%;
+        height: 100%;
+        display: block
+      }
+
+      & svg path {
+        fill: none;
+        stroke: var(--muted);
+        stroke-width: 64
+      }
+
+      &:hover svg path {
+        stroke: var(--accent)
+      }
+
+      &.on svg path {
+        fill: var(--accent);
+        stroke: none
+      }
+    }
+
     .poster {
       grid-area: poster;
       align-self: start;
@@ -420,7 +555,7 @@
       display: flex;
       flex-direction: column;
       gap: 8px;
-      
+
       @media (max-width: 700px) {
         text-align: center;
       }
@@ -428,6 +563,7 @@
 
     .csyn {
       grid-area: synopsis;
+      padding-right: 20px;
       min-width: 0
     }
 
@@ -444,7 +580,7 @@
       font-size: 18px;
       font-weight: 800;
       line-height: 1.25;
-      color: #f5c518;
+      color: var(--accent);
     }
 
     .cpt {
@@ -493,7 +629,7 @@
         border-radius: 0;
         background: none;
         border: none;
-        color: #6ea8fe;
+        color: var(--accent-2);
       }
 
       &.pts {
@@ -514,8 +650,7 @@
 
     .gtag {
       font-size: 11px;
-      background: rgba(110, 168, 254, .12);
-      border: 1px solid rgba(110, 168, 254, .32);
+      background: var(--bg);
       color: var(--accent-2);
       padding: 2px 8px;
       border-radius: 6px
@@ -756,93 +891,109 @@
 
 <body>
   <header>
-    <h1><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"><path d="m160-800 80 160h120l-80-160h80l80 160h120l-80-160h80l80 160h120l-80-160h120q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800Zm0 240v320h640v-320H160Zm0 0v320-320Z"/></svg>film<span>curator</span></h1>
-    <div class="sub">Este site agrega e ranqueia listas curadas de filmes —
-      <a href="https://www.theguardian.com/film/2019/sep/13/100-best-films-movies-of-the-21st-century" target="_blank" rel="noopener">Guardian</a>,
-      <a href="https://www.nytimes.com/interactive/2025/movies/best-movies-21st-century.html" target="_blank" rel="noopener">The New York Times</a>,
-      <a href="https://www.bbc.com/culture/article/20160819-the-21st-centurys-100-greatest-films" target="_blank" rel="noopener">BBC</a>,
-      <a href="https://www.rollingstone.com/feature/100-best-movies-20th-century-peter-travers-40636" target="_blank" rel="noopener">Rolling Stone</a>,
-      <a href="https://www.filmsite.org/villvoice.html" target="_blank" rel="noopener">Village Voice</a> e
-      <a href="https://www.bfi.org.uk/sight-and-sound/news/sight-sound-presents-greatest-films-all-time" target="_blank" rel="noopener">Sight &amp; Sound</a>.
-      Dados dos filmes pelo <a href="https://www.themoviedb.org/" target="_blank" rel="noopener">TMDB</a>.</div>
+    <div class="head-main">
+      <h1><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px">
+          <path
+            d="m160-800 80 160h120l-80-160h80l80 160h120l-80-160h80l80 160h120l-80-160h120q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800Zm0 240v320h640v-320H160Zm0 0v320-320Z" />
+        </svg>film<span>curator</span></h1>
+      <div class="sub">
+        <strong>
+          Escolher um filme não devia ser tão difícil. A curadoria da crítica, reunida e ranqueada.
+        </strong>
+        Filtre pelo seu interesse ou simplesmente sorteie um filme.
+      </div>
+    </div>
+    <button class="favview" id="favView" type="button" disabled aria-pressed="false" aria-label="Ver favoritos"
+      title="Ver favoritos">
+      <svg viewBox="0 -960 960 960" aria-hidden="true">
+        <path
+          d="M480-120l-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-159t157-65q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 65t63 159q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Z" />
+      </svg>
+    </button>
   </header>
 
   <div class="layout">
     <aside class="filters collapsed">
       <div class="filters-head">
-        <button class="hbtn filters-toggle" id="filtersToggle" aria-expanded="false" aria-controls="filtersBody" type="button">
-          <svg class="mi" viewBox="0 -960 960 960" aria-hidden="true"><path d="M400-240v-80h160v80H400ZM240-440v-80h480v80H240ZM120-640v-80h720v80H120Z"/></svg>
+        <button class="hbtn filters-toggle" id="filtersToggle" aria-expanded="false" aria-controls="filtersBody"
+          type="button">
+          <svg class="mi" viewBox="0 -960 960 960" aria-hidden="true">
+            <path d="M400-240v-80h160v80H400ZM240-440v-80h480v80H240ZM120-640v-80h720v80H120Z" />
+          </svg>
           <span>Filtros</span>
         </button>
         <button class="hbtn" id="shuffle" type="button">
-          <svg class="mi" viewBox="0 -960 960 960" aria-hidden="true"><path d="M342.5-257.5Q360-275 360-300t-17.5-42.5Q325-360 300-360t-42.5 17.5Q240-325 240-300t17.5 42.5Q275-240 300-240t42.5-17.5Zm0-360Q360-635 360-660t-17.5-42.5Q325-720 300-720t-42.5 17.5Q240-685 240-660t17.5 42.5Q275-600 300-600t42.5-17.5Zm180 180Q540-455 540-480t-17.5-42.5Q505-540 480-540t-42.5 17.5Q420-505 420-480t17.5 42.5Q455-420 480-420t42.5-17.5Zm180 180Q720-275 720-300t-17.5-42.5Q685-360 660-360t-42.5 17.5Q600-325 600-300t17.5 42.5Q635-240 660-240t42.5-17.5Zm0-360Q720-635 720-660t-17.5-42.5Q685-720 660-720t-42.5 17.5Q600-685 600-660t17.5 42.5Q635-600 660-600t42.5-17.5ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/></svg>
+          <svg class="mi" viewBox="0 -960 960 960" aria-hidden="true">
+            <path
+              d="M342.5-257.5Q360-275 360-300t-17.5-42.5Q325-360 300-360t-42.5 17.5Q240-325 240-300t17.5 42.5Q275-240 300-240t42.5-17.5Zm0-360Q360-635 360-660t-17.5-42.5Q325-720 300-720t-42.5 17.5Q240-685 240-660t17.5 42.5Q275-600 300-600t42.5-17.5Zm180 180Q540-455 540-480t-17.5-42.5Q505-540 480-540t-42.5 17.5Q420-505 420-480t17.5 42.5Q455-420 480-420t42.5-17.5Zm180 180Q720-275 720-300t-17.5-42.5Q685-360 660-360t-42.5 17.5Q600-325 600-300t17.5 42.5Q635-240 660-240t42.5-17.5Zm0-360Q720-635 720-660t-17.5-42.5Q685-720 660-720t-42.5 17.5Q600-685 600-660t17.5 42.5Q635-600 660-600t42.5-17.5ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z" />
+          </svg>
           <span>Sortear filme</span>
         </button>
       </div>
 
       <div class="filters-body" id="filtersBody">
-      <div class="fgroup">
-        <h2>Buscar</h2>
-        <input type="text" id="q" placeholder="Título ou diretor…" autocomplete="off">
-      </div>
-
-      <div class="fgroup">
-        <h2>Lista</h2>
-        <div class="chips" id="listChips"><!-- gerado das fontes em app.js --></div>
-      </div>
-
-      <div class="fgroup">
-        <label class="fld" for="platform">Plataforma (BR)</label>
-        <select id="platform">
-          <option value="">Todas</option>
-        </select>
-      </div>
-
-      <div class="fgroup">
-        <label class="fld" for="country">País de origem</label>
-        <select id="country">
-          <option value="">Todos</option>
-        </select>
-      </div>
-
-      <div class="fgroup">
-        <label class="fld" for="director">Diretor</label>
-        <select id="director">
-          <option value="">Todos</option>
-        </select>
-      </div>
-
-      <div class="fgroup">
-        <label class="fld" for="genre">Gênero</label>
-        <select id="genre">
-          <option value="">Todos</option>
-        </select>
-      </div>
-
-      <div class="fgroup">
-        <label class="fld">Ano do filme</label>
-        <div class="dualrange">
-          <div class="dr-track"></div>
-          <div class="dr-fill" id="yearFill"></div>
-          <input type="range" id="yearMin" step="1">
-          <input type="range" id="yearMax" step="1">
+        <div class="fgroup">
+          <h2>Buscar</h2>
+          <input type="text" id="q" placeholder="Título ou diretor…" autocomplete="off">
         </div>
-        <div class="rangeval" id="yearVal" style="text-align:left">—</div>
-      </div>
 
-      <div class="fgroup">
-        <label class="fld">Duração máxima</label>
-        <div class="range">
-          <input type="range" id="dur" min="80" max="321" value="321" step="1">
-          <span class="rangeval" id="durVal">até 321 min</span>
+        <div class="fgroup">
+          <h2>Lista</h2>
+          <div class="chips" id="listChips"><!-- gerado das fontes em app.js --></div>
         </div>
-      </div>
 
-      <div class="fgroup">
-        <label class="fld"><input type="checkbox" id="onlyStream"> Só com streaming no BR</label>
-      </div>
+        <div class="fgroup">
+          <label class="fld" for="platform">Plataforma (BR)</label>
+          <select id="platform">
+            <option value="">Todas</option>
+          </select>
+        </div>
 
-      <button class="reset" id="reset">Limpar filtros</button>
+        <div class="fgroup">
+          <label class="fld" for="country">País de origem</label>
+          <select id="country">
+            <option value="">Todos</option>
+          </select>
+        </div>
+
+        <div class="fgroup">
+          <label class="fld" for="director">Diretor</label>
+          <select id="director">
+            <option value="">Todos</option>
+          </select>
+        </div>
+
+        <div class="fgroup">
+          <label class="fld" for="genre">Gênero</label>
+          <select id="genre">
+            <option value="">Todos</option>
+          </select>
+        </div>
+
+        <div class="fgroup">
+          <label class="fld">Ano do filme</label>
+          <div class="dualrange">
+            <div class="dr-track"></div>
+            <div class="dr-fill" id="yearFill"></div>
+            <input type="range" id="yearMin" step="1">
+            <input type="range" id="yearMax" step="1">
+          </div>
+          <div class="rangeval" id="yearVal" style="text-align:left">—</div>
+        </div>
+
+        <div class="fgroup">
+          <label class="fld">Duração máxima</label>
+          <div class="range">
+            <input type="range" id="dur" min="80" max="321" value="321" step="1">
+            <span class="rangeval" id="durVal">até 321 min</span>
+          </div>
+        </div>
+
+        <div class="fgroup">
+          <label class="fld"><input type="checkbox" id="onlyStream"> Só com streaming no BR</label>
+        </div>
+
+        <button class="reset" id="reset">Limpar filtros</button>
       </div>
     </aside>
 
@@ -870,6 +1021,21 @@
 
   <footer class="foot">
     <span class="updated" id="updated"></span>
+    <div class="info">
+      Este site agrega e ranqueia listas curadas de filmes —
+      <a href="https://www.theguardian.com/film/2019/sep/13/100-best-films-movies-of-the-21st-century" target="_blank"
+        rel="noopener">Guardian</a>,
+      <a href="https://www.nytimes.com/interactive/2025/movies/best-movies-21st-century.html" target="_blank"
+        rel="noopener">The New York Times</a>,
+      <a href="https://www.bbc.com/culture/article/20160819-the-21st-centurys-100-greatest-films" target="_blank"
+        rel="noopener">BBC</a>,
+      <a href="https://www.rollingstone.com/feature/100-best-movies-20th-century-peter-travers-40636" target="_blank"
+        rel="noopener">Rolling Stone</a>,
+      <a href="https://www.filmsite.org/villvoice.html" target="_blank" rel="noopener">Village Voice</a> e
+      <a href="https://www.bfi.org.uk/sight-and-sound/news/sight-sound-presents-greatest-films-all-time" target="_blank"
+        rel="noopener">Sight &amp; Sound</a>.
+      Dados dos filmes pelo <a href="https://www.themoviedb.org/" target="_blank" rel="noopener">TMDB</a>.
+    </div>
     <span class="cright">© <a href="https://rafaortman.github.io/filmcurator/">Rafael Ortman</a> • 2026</span>
   </footer>
 
@@ -881,14 +1047,21 @@
         <h3>Sortear outro</h3>
         <div class="reroll-selects">
           <label class="fld">Gênero
-            <select id="lockGenre"><option value="">Qualquer</option></select>
+            <select id="lockGenre">
+              <option value="">Qualquer</option>
+            </select>
           </label>
           <label class="fld">Plataforma
-            <select id="lockPlatform"><option value="">Qualquer</option></select>
+            <select id="lockPlatform">
+              <option value="">Qualquer</option>
+            </select>
           </label>
         </div>
         <button type="button" class="btn-shuffle block" id="shuffleAgain">
-          <svg class="mi" viewBox="0 -960 960 960" aria-hidden="true"><path d="M342.5-257.5Q360-275 360-300t-17.5-42.5Q325-360 300-360t-42.5 17.5Q240-325 240-300t17.5 42.5Q275-240 300-240t42.5-17.5Zm0-360Q360-635 360-660t-17.5-42.5Q325-720 300-720t-42.5 17.5Q240-685 240-660t17.5 42.5Q275-600 300-600t42.5-17.5Zm180 180Q540-455 540-480t-17.5-42.5Q505-540 480-540t-42.5 17.5Q420-505 420-480t17.5 42.5Q455-420 480-420t42.5-17.5Zm180 180Q720-275 720-300t-17.5-42.5Q685-360 660-360t-42.5 17.5Q600-325 600-300t17.5 42.5Q635-240 660-240t42.5-17.5Zm0-360Q720-635 720-660t-17.5-42.5Q685-720 660-720t-42.5 17.5Q600-685 600-660t17.5 42.5Q635-600 660-600t42.5-17.5ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z"/></svg>
+          <svg class="mi" viewBox="0 -960 960 960" aria-hidden="true">
+            <path
+              d="M342.5-257.5Q360-275 360-300t-17.5-42.5Q325-360 300-360t-42.5 17.5Q240-325 240-300t17.5 42.5Q275-240 300-240t42.5-17.5Zm0-360Q360-635 360-660t-17.5-42.5Q325-720 300-720t-42.5 17.5Q240-685 240-660t17.5 42.5Q275-600 300-600t42.5-17.5Zm180 180Q540-455 540-480t-17.5-42.5Q505-540 480-540t-42.5 17.5Q420-505 420-480t17.5 42.5Q455-420 480-420t42.5-17.5Zm180 180Q720-275 720-300t-17.5-42.5Q685-360 660-360t-42.5 17.5Q600-325 600-300t17.5 42.5Q635-240 660-240t42.5-17.5Zm0-360Q720-635 720-660t-17.5-42.5Q685-720 660-720t-42.5 17.5Q600-685 600-660t17.5 42.5Q635-600 660-600t42.5-17.5ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z" />
+          </svg>
           <span>Sortear de novo</span>
         </button>
       </div>

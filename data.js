@@ -1153,11 +1153,12 @@ window.DB = {
 ],
 "streamingCheckedAt": "2026-07-31",
 "ranks": {
-"NYT": 1
+"NYT": 1,
+"SIS": 91
 },
-"nLists": 1,
-"avgRank": 1.0,
-"points": 100
+"nLists": 2,
+"avgRank": 46.0,
+"points": 110
 },
 {
 "id": "445",
@@ -11090,30 +11091,6 @@ window.DB = {
 "nLists": 1,
 "avgRank": 89.0,
 "points": 12
-},
-{
-"id": "1309516",
-"imdb_id": "",
-"titleOrig": "More Animated Worker and Parasite",
-"titlePt": "More Animated Worker and Parasite",
-"year": null,
-"country": "",
-"director": "Suzanne Dargie",
-"duration": 2,
-"genres": [
-"Animação"
-],
-"poster": "",
-"overview": "",
-"era": "XXI",
-"platforms": [],
-"streamingCheckedAt": "2026-08-01",
-"ranks": {
-"SIS": 91
-},
-"nLists": 1,
-"avgRank": 91.0,
-"points": 10
 },
 {
 "id": "1040",
