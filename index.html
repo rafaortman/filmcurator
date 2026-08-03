@@ -15,7 +15,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>FilmCurator — Os melhores filmes das principais listas de críticos</title>
   <meta name="description" content="Escolher um filme não devia ser tão difícil. A curadoria da crítica, reunida e ranqueada. Filtre pelo seu interesse ou simplesmente sorteie um filme.">
-  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="icon" type="image/png" href="img/favicon.png">
 
   <!-- Open Graph (Facebook, LinkedIn, WhatsApp) -->
   <meta property="og:type" content="website">
@@ -24,8 +24,8 @@
   <meta property="og:url" content="https://rafaortman.github.io/filmcurator/">
   <meta property="og:title" content="FilmCurator — Escolher um filme não devia ser tão difícil.">
   <meta property="og:description" content="A curadoria da crítica, reunida e ranqueada. Filtre pelo seu interesse ou simplesmente sorteie um filme.">
-  <meta property="og:image" content="https://rafaortman.github.io/filmcurator/shareimg.jpg">
-  <meta property="og:image:width" content="1201">
+  <meta property="og:image" content="https://rafaortman.github.io/filmcurator/img/shareimg.png">
+  <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="FilmCurator — a curadoria da crítica, reunida e ranqueada.">
 
@@ -33,7 +33,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="FilmCurator — Escolher um filme não devia ser tão difícil.">
   <meta name="twitter:description" content="A curadoria da crítica, reunida e ranqueada. Filtre pelo seu interesse ou simplesmente sorteie um filme.">
-  <meta name="twitter:image" content="https://rafaortman.github.io/filmcurator/shareimg.jpg">
+  <meta name="twitter:image" content="https://rafaortman.github.io/filmcurator/img/shareimg.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet"
@@ -232,7 +232,6 @@
       line-height: 1.6;
       display: flex;
       justify-content: space-between;
-      align-items: center;
       gap: 10px;
       z-index: 100;
 
@@ -268,6 +267,14 @@
         justify-content: center;
         align-items: center;
       }
+    }
+
+    .cright {
+      white-space: nowrap;
+    }
+
+    .info {
+      text-align: center;
     }
 
     label.fld {
@@ -528,6 +535,7 @@
       border-radius: 8px;
       object-fit: cover;
       background: var(--shade);
+      border: 2px solid var(--shade);
 
       &.none {
         display: flex;
@@ -898,7 +906,7 @@
         </svg>film<span>curator</span></h1>
       <div class="sub">
         <strong>
-          Escolher um filme não devia ser tão difícil. A curadoria da crítica, reunida e ranqueada.
+          Escolher um bom filme não devia ser tão difícil. A curadoria da crítica, reunida e ranqueada.
         </strong>
         Filtre pelo seu interesse ou simplesmente sorteie um filme.
       </div>
@@ -1022,7 +1030,7 @@
   <footer class="foot">
     <span class="updated" id="updated"></span>
     <div class="info">
-      Este site agrega e ranqueia listas curadas de filmes —
+      Listas curadas: 
       <a href="https://www.theguardian.com/film/2019/sep/13/100-best-films-movies-of-the-21st-century" target="_blank"
         rel="noopener">Guardian</a>,
       <a href="https://www.nytimes.com/interactive/2025/movies/best-movies-21st-century.html" target="_blank"
@@ -1034,7 +1042,7 @@
       <a href="https://www.filmsite.org/villvoice.html" target="_blank" rel="noopener">Village Voice</a> e
       <a href="https://www.bfi.org.uk/sight-and-sound/news/sight-sound-presents-greatest-films-all-time" target="_blank"
         rel="noopener">Sight &amp; Sound</a>.
-      Dados dos filmes pelo <a href="https://www.themoviedb.org/" target="_blank" rel="noopener">TMDB</a>.
+      Dados fornecidos pelo <a href="https://www.themoviedb.org/" target="_blank" rel="noopener">TMDB</a>.
     </div>
     <span class="cright">© <a href="https://rafaortman.github.io/filmcurator/">Rafael Ortman</a> • 2026</span>
   </footer>
