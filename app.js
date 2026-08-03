@@ -170,11 +170,21 @@ function render(){
 function updateFavView(){
   const btn = $('favView');
   const has = favs.size > 0;
-  btn.disabled = !has;
-  if (!has) state.favView = false;   // sem favoritos, sai do modo e desativa
+  btn.setAttribute('aria-disabled', String(!has));   // aparência "apagada", mas segue clicável
+  if (!has) state.favView = false;   // sem favoritos, sai do modo
   btn.setAttribute('aria-pressed', String(state.favView));
   btn.title = state.favView ? 'Ver todos' : 'Ver favoritos';
   btn.setAttribute('aria-label', btn.title);
+}
+
+// Toast: mensagem breve que some sozinha.
+let toastTimer;
+function toast(msg){
+  const el = $('toast'); if (!el) return;
+  el.textContent = msg;
+  el.hidden = false;
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => { el.hidden = true; }, 3500);
 }
 
 function toggleFav(id){
@@ -230,9 +240,12 @@ $('yearMax').addEventListener('input', e => {
 
 $('sort').addEventListener('change', e => { state.sort = e.target.value; render(); });
 
-// Coração global: alterna o modo "só favoritos" (desativado enquanto não há favoritos).
+// Coração global: alterna o modo "só favoritos". Sem favoritos, explica em vez de não fazer nada.
 $('favView').addEventListener('click', () => {
-  if (favs.size === 0) return;
+  if (favs.size === 0){
+    toast('Você ainda não favoritou nenhum filme. Toque no ♥ de um filme para salvá-lo aqui.');
+    return;
+  }
   state.favView = !state.favView;
   updateFavView();
   render();
@@ -341,4 +354,16 @@ shuffleResult.addEventListener('click', e => {
   if (!dates.length) return;
   const [y, mo, d] = dates[dates.length - 1].split('-');
   el.textContent = `Streamings atualizados em ${d}/${mo}/${y}`;
+})();
+
+// ---- Consentimento LGPD (informativo; o GA4 dispara sempre) ----
+(() => {
+  const bar = $('lgpd'); if (!bar) return;
+  const KEY = 'filmcurator:lgpd';
+  if (localStorage.getItem(KEY)) return;   // já dispensou → não mostra de novo
+  bar.hidden = false;
+  $('lgpdOk').addEventListener('click', () => {
+    localStorage.setItem(KEY, '1');
+    bar.hidden = true;
+  });
 })();
